@@ -1,0 +1,934 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/0.9.0" xmi:id="_T1AKMBBMEeG6WpQ5tPmNdQ">
+  <modelElement href="model.uml#_Tz9BUBBMEeG6WpQ5tPmNdQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_WfeMZBBMEeG6WpQ5tPmNdQ" sourceAnchor="289.0,112.0" targetAnchor="0.0,20.0" source="_WgW9RxBMEeG6WpQ5tPmNdQ" target="_WfeMYBBMEeG6WpQ5tPmNdQ">
+    <modelElement href="model.uml#_UUvaXBBMEeG6WpQ5tPmNdQ"/>
+    <nameVisual xmi:id="_WgNzQhBMEeG6WpQ5tPmNdQ" text="">
+      <visualProperties xmi:id="_W7L4DBBMEeG6WpQ5tPmNdQ" position="-46.0,-7.0"/>
+    </nameVisual>
+    <stereotypes xmi:id="_WgNzRRBMEeG6WpQ5tPmNdQ" name="Reference">
+      <modelElement href="model.uml#_UUvaXhBMEeG6WpQ5tPmNdQ"/>
+    </stereotypes>
+    <sourceRole xmi:id="_WgNzQxBMEeG6WpQ5tPmNdQ" name="">
+      <modelElement href="model.uml#_UUvaXRBMEeG6WpQ5tPmNdQ"/>
+      <visualProperties xmi:id="_W7L4CxBMEeG6WpQ5tPmNdQ" position="5.0,-42.0"/>
+      <visibility xmi:id="_WgW9QxBMEeG6WpQ5tPmNdQ" label="+"/>
+      <cardinality xmi:id="_WgW9QhBMEeG6WpQ5tPmNdQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_WgNzRBBMEeG6WpQ5tPmNdQ" name="value" navigable="true">
+      <modelElement href="model.uml#_UUSuSRBMEeG6WpQ5tPmNdQ"/>
+      <visualProperties xmi:id="_W7L4DRBMEeG6WpQ5tPmNdQ" position="-45.0,10.0"/>
+      <stereotypes xmi:id="_j49fkBBYEeGYiOwcBQRKpA" name="LegacyStyledElement">
+        <modelElement href="model.uml#_UUSuShBMEeG6WpQ5tPmNdQ"/>
+      </stereotypes>
+      <visibility xmi:id="_WgW9RRBMEeG6WpQ5tPmNdQ" label="-"/>
+      <cardinality xmi:id="_WgW9RBBMEeG6WpQ5tPmNdQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:ConnectionVisual" xmi:id="_WgNzQRBMEeG6WpQ5tPmNdQ" sourceItem="_WgNzQBBMEeG6WpQ5tPmNdQ" targetItem="_WgW9RxBMEeG6WpQ5tPmNdQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:ConnectionVisual" xmi:id="_WgW9MRBMEeG6WpQ5tPmNdQ" sourceItem="_WgW9MBBMEeG6WpQ5tPmNdQ" targetItem="_WgW9ThBMEeG6WpQ5tPmNdQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:ConnectionVisual" xmi:id="_WgW9MxBMEeG6WpQ5tPmNdQ" sourceItem="_WgW9MhBMEeG6WpQ5tPmNdQ" targetItem="_WgW9WRBMEeG6WpQ5tPmNdQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:ConnectionVisual" xmi:id="_WgW9NRBMEeG6WpQ5tPmNdQ" sourceItem="_WgW9NBBMEeG6WpQ5tPmNdQ" targetItem="_WgW9XRBMEeG6WpQ5tPmNdQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:ConnectionVisual" xmi:id="_WgW9NxBMEeG6WpQ5tPmNdQ" sourceItem="_WgW9NhBMEeG6WpQ5tPmNdQ" targetItem="_WgW9YRBMEeG6WpQ5tPmNdQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:ConnectionVisual" xmi:id="_WgW9ORBMEeG6WpQ5tPmNdQ" sourceItem="_WgW9OBBMEeG6WpQ5tPmNdQ" targetItem="_WgW9ZxBMEeG6WpQ5tPmNdQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:ConnectionVisual" xmi:id="_WgW9OxBMEeG6WpQ5tPmNdQ" sourceItem="_WgW9OhBMEeG6WpQ5tPmNdQ" targetItem="_WgguMhBMEeG6WpQ5tPmNdQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:ConnectionVisual" xmi:id="_WgW9PRBMEeG6WpQ5tPmNdQ" sourceItem="_WgW9PBBMEeG6WpQ5tPmNdQ" targetItem="_WgguOBBMEeG6WpQ5tPmNdQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:ConnectionVisual" xmi:id="_WgW9PxBMEeG6WpQ5tPmNdQ" sourceItem="_WgW9PhBMEeG6WpQ5tPmNdQ" targetItem="_WgguPhBMEeG6WpQ5tPmNdQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:ConnectionVisual" xmi:id="_WgW9QRBMEeG6WpQ5tPmNdQ" sourceItem="_WgW9QBBMEeG6WpQ5tPmNdQ" targetItem="_WgguRRBMEeG6WpQ5tPmNdQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_WhjQARBMEeG6WpQ5tPmNdQ" sourceAnchor="147.0,0.0" targetAnchor="40.0,55.0" dashed="true" subClass="_Wh2yABBMEeG6WpQ5tPmNdQ" superClass="_WgguTBBMEeG6WpQ5tPmNdQ">
+    <modelElement href="model.uml#_UUSuQRBMEeG6WpQ5tPmNdQ"/>
+    <bendpoints xmi:id="_1tfRIBBYEeGYiOwcBQRKpA" sourceY="-256" targetX="277" targetY="39"/>
+    <bendpoints xmi:id="_1tfRIRBYEeGYiOwcBQRKpA" sourceX="-277" sourceY="-256" targetY="39"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:ConnectionVisual" xmi:id="_WhtBARBMEeG6WpQ5tPmNdQ" sourceItem="_WhtBABBMEeG6WpQ5tPmNdQ" targetItem="_Wh2yChBMEeG6WpQ5tPmNdQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:ConnectionVisual" xmi:id="_WhtBAxBMEeG6WpQ5tPmNdQ" sourceItem="_WhtBAhBMEeG6WpQ5tPmNdQ" targetItem="_Wh2yDxBMEeG6WpQ5tPmNdQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:ConnectionVisual" xmi:id="_WhtBBRBMEeG6WpQ5tPmNdQ" sourceItem="_WhtBBBBMEeG6WpQ5tPmNdQ" targetItem="_Wh2yGBBMEeG6WpQ5tPmNdQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:ConnectionVisual" xmi:id="_WhtBBxBMEeG6WpQ5tPmNdQ" sourceItem="_WhtBBhBMEeG6WpQ5tPmNdQ" targetItem="_Wh2yGhBMEeG6WpQ5tPmNdQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:ConnectionVisual" xmi:id="_WhtBCRBMEeG6WpQ5tPmNdQ" sourceItem="_WhtBCBBMEeG6WpQ5tPmNdQ" targetItem="_Wh2yHBBMEeG6WpQ5tPmNdQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:ConnectionVisual" xmi:id="_WhtBCxBMEeG6WpQ5tPmNdQ" sourceItem="_WhtBChBMEeG6WpQ5tPmNdQ" targetItem="_Wh2yIBBMEeG6WpQ5tPmNdQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:ConnectionVisual" xmi:id="_WhtBDRBMEeG6WpQ5tPmNdQ" sourceItem="_WhtBDBBMEeG6WpQ5tPmNdQ" targetItem="_Wh2yLBBMEeG6WpQ5tPmNdQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:ConnectionVisual" xmi:id="_WhtBDxBMEeG6WpQ5tPmNdQ" sourceItem="_WhtBDhBMEeG6WpQ5tPmNdQ" targetItem="_Wh2yNBBMEeG6WpQ5tPmNdQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:ConnectionVisual" xmi:id="_WhtBERBMEeG6WpQ5tPmNdQ" sourceItem="_WhtBEBBMEeG6WpQ5tPmNdQ" targetItem="_Wh2yPBBMEeG6WpQ5tPmNdQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:ConnectionVisual" xmi:id="_WhtBExBMEeG6WpQ5tPmNdQ" sourceItem="_WhtBEhBMEeG6WpQ5tPmNdQ" targetItem="_Wh2yQxBMEeG6WpQ5tPmNdQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:ConnectionVisual" xmi:id="_WhtBFRBMEeG6WpQ5tPmNdQ" sourceItem="_WhtBFBBMEeG6WpQ5tPmNdQ" targetItem="_Wh2ySRBMEeG6WpQ5tPmNdQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:ConnectionVisual" xmi:id="_WhtBFxBMEeG6WpQ5tPmNdQ" sourceItem="_WhtBFhBMEeG6WpQ5tPmNdQ" targetItem="_Wh2yTxBMEeG6WpQ5tPmNdQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:ConnectionVisual" xmi:id="_WhtBGRBMEeG6WpQ5tPmNdQ" sourceItem="_WhtBGBBMEeG6WpQ5tPmNdQ" targetItem="_Wh2yVRBMEeG6WpQ5tPmNdQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:ConnectionVisual" xmi:id="_WhtBGxBMEeG6WpQ5tPmNdQ" sourceItem="_WhtBGhBMEeG6WpQ5tPmNdQ" targetItem="_Wh2yWxBMEeG6WpQ5tPmNdQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:ConnectionVisual" xmi:id="_WhtBHRBMEeG6WpQ5tPmNdQ" sourceItem="_WhtBHBBMEeG6WpQ5tPmNdQ" targetItem="_Wh2yYRBMEeG6WpQ5tPmNdQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:ConnectionVisual" xmi:id="_WhtBHxBMEeG6WpQ5tPmNdQ" sourceItem="_WhtBHhBMEeG6WpQ5tPmNdQ" targetItem="_Wh2yZxBMEeG6WpQ5tPmNdQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:ConnectionVisual" xmi:id="_Wh_78BBMEeG6WpQ5tPmNdQ" sourceItem="_Wh2ybhBMEeG6WpQ5tPmNdQ" targetItem="_WiJtABBMEeG6WpQ5tPmNdQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:ConnectionVisual" xmi:id="_WiJs8RBMEeG6WpQ5tPmNdQ" sourceItem="_WiJs8BBMEeG6WpQ5tPmNdQ" targetItem="_WiJtBxBMEeG6WpQ5tPmNdQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:ConnectionVisual" xmi:id="_WiJs8xBMEeG6WpQ5tPmNdQ" sourceItem="_WiJs8hBMEeG6WpQ5tPmNdQ" targetItem="_WiJtEhBMEeG6WpQ5tPmNdQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:ConnectionVisual" xmi:id="_WiJs9RBMEeG6WpQ5tPmNdQ" sourceItem="_WiJs9BBMEeG6WpQ5tPmNdQ" targetItem="_WiJtFhBMEeG6WpQ5tPmNdQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:ConnectionVisual" xmi:id="_WiJs9xBMEeG6WpQ5tPmNdQ" sourceItem="_WiJs9hBMEeG6WpQ5tPmNdQ" targetItem="_WiJtGhBMEeG6WpQ5tPmNdQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:ConnectionVisual" xmi:id="_WiJs-RBMEeG6WpQ5tPmNdQ" sourceItem="_WiJs-BBMEeG6WpQ5tPmNdQ" targetItem="_WiJtIBBMEeG6WpQ5tPmNdQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:ConnectionVisual" xmi:id="_WiJs-xBMEeG6WpQ5tPmNdQ" sourceItem="_WiJs-hBMEeG6WpQ5tPmNdQ" targetItem="_WiJtJhBMEeG6WpQ5tPmNdQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:ConnectionVisual" xmi:id="_WiJs_RBMEeG6WpQ5tPmNdQ" sourceItem="_WiJs_BBMEeG6WpQ5tPmNdQ" targetItem="_WiJtLBBMEeG6WpQ5tPmNdQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:ConnectionVisual" xmi:id="_WiJs_xBMEeG6WpQ5tPmNdQ" sourceItem="_WiJs_hBMEeG6WpQ5tPmNdQ" targetItem="_WiJtMhBMEeG6WpQ5tPmNdQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_WiJtORBMEeG6WpQ5tPmNdQ" sourceAnchor="258.0,72.0" targetAnchor="142.0,137.0" source="_Wicn5xBMEeG6WpQ5tPmNdQ" target="_Wicn5xBMEeG6WpQ5tPmNdQ">
+    <modelElement href="model.uml#_UUvaWRBMEeG6WpQ5tPmNdQ"/>
+    <nameVisual xmi:id="_WiTeABBMEeG6WpQ5tPmNdQ" text="">
+      <visualProperties xmi:id="_W7L4DxBMEeG6WpQ5tPmNdQ" position="-42.0,-85.0"/>
+    </nameVisual>
+    <bendpoints xmi:id="_1tfRJhBYEeGYiOwcBQRKpA" sourceX="79" targetX="195" targetY="-65"/>
+    <bendpoints xmi:id="_1tfRJxBYEeGYiOwcBQRKpA" sourceX="79" sourceY="90" targetX="195" targetY="25"/>
+    <bendpoints xmi:id="_1tfRKBBYEeGYiOwcBQRKpA" sourceX="-116" sourceY="77" targetY="12"/>
+    <stereotypes xmi:id="_Wicn4hBMEeG6WpQ5tPmNdQ" name="Reference">
+      <modelElement href="model.uml#_UUvaWxBMEeG6WpQ5tPmNdQ"/>
+    </stereotypes>
+    <sourceRole xmi:id="_Wicn4BBMEeG6WpQ5tPmNdQ" name="">
+      <modelElement href="model.uml#_UUvaWhBMEeG6WpQ5tPmNdQ"/>
+      <visualProperties xmi:id="_W7L4DhBMEeG6WpQ5tPmNdQ" position="5.0,-42.0"/>
+      <visibility xmi:id="_Wicn5BBMEeG6WpQ5tPmNdQ" label="+"/>
+      <cardinality xmi:id="_Wicn4xBMEeG6WpQ5tPmNdQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Wicn4RBMEeG6WpQ5tPmNdQ" name="zero" navigable="true">
+      <modelElement href="model.uml#_UI9oABBMEeG6WpQ5tPmNdQ"/>
+      <visualProperties xmi:id="_W7L4EBBMEeG6WpQ5tPmNdQ" position="120.0,-9.0"/>
+      <visibility xmi:id="_Wicn5hBMEeG6WpQ5tPmNdQ" label="+"/>
+      <cardinality xmi:id="_Wicn5RBMEeG6WpQ5tPmNdQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_WiTd8BBMEeG6WpQ5tPmNdQ" sourceAnchor="130.0,0.0" targetAnchor="40.0,55.0" subClass="_Wicn5xBMEeG6WpQ5tPmNdQ" superClass="_WgguTBBMEeG6WpQ5tPmNdQ">
+    <modelElement href="model.uml#_UUSuSBBMEeG6WpQ5tPmNdQ"/>
+    <bendpoints xmi:id="_1tfRKRBYEeGYiOwcBQRKpA" sourceY="-30" targetX="-25" targetY="39"/>
+    <bendpoints xmi:id="_1tfRKhBYEeGYiOwcBQRKpA" sourceX="25" sourceY="-30" targetY="39"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:ConnectionVisual" xmi:id="_WiTd8hBMEeG6WpQ5tPmNdQ" sourceItem="_WiTd8RBMEeG6WpQ5tPmNdQ" targetItem="_Wicn5xBMEeG6WpQ5tPmNdQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_WiTd8xBMEeG6WpQ5tPmNdQ" sourceAnchor="143.0,0.0" targetAnchor="99.0,137.0" dashed="true" subClass="_WgW9RxBMEeG6WpQ5tPmNdQ" superClass="_Wicn5xBMEeG6WpQ5tPmNdQ">
+    <modelElement href="model.uml#_UT2CUBBMEeG6WpQ5tPmNdQ"/>
+    <bendpoints xmi:id="_1tWHMBBYEeGYiOwcBQRKpA" sourceY="-388" targetX="-114" targetY="59"/>
+    <bendpoints xmi:id="_1tWHMRBYEeGYiOwcBQRKpA" sourceX="114" sourceY="-388" targetY="59"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_WiTd9BBMEeG6WpQ5tPmNdQ" sourceAnchor="117.0,0.0" targetAnchor="99.0,137.0" dashed="true" subClass="_Wh2yABBMEeG6WpQ5tPmNdQ" superClass="_Wicn5xBMEeG6WpQ5tPmNdQ">
+    <modelElement href="model.uml#_UT_zUhBMEeG6WpQ5tPmNdQ"/>
+    <bendpoints xmi:id="_1tfRIhBYEeGYiOwcBQRKpA" sourceY="-30" targetX="303" targetY="59"/>
+    <bendpoints xmi:id="_1tfRIxBYEeGYiOwcBQRKpA" sourceX="-303" sourceY="-30" targetY="59"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_WiTd9RBMEeG6WpQ5tPmNdQ" sourceAnchor="129.0,0.0" targetAnchor="99.0,137.0" dashed="true" subClass="_WiJtABBMEeG6WpQ5tPmNdQ" superClass="_Wicn5xBMEeG6WpQ5tPmNdQ">
+    <modelElement href="model.uml#_UT_zbBBMEeG6WpQ5tPmNdQ"/>
+    <bendpoints xmi:id="_1tfRJBBYEeGYiOwcBQRKpA" sourceY="-33" targetX="30" targetY="59"/>
+    <bendpoints xmi:id="_1tfRJRBYEeGYiOwcBQRKpA" sourceX="-30" sourceY="-33" targetY="59"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:ConnectionVisual" xmi:id="_WiTd9xBMEeG6WpQ5tPmNdQ" sourceItem="_WiTd9hBMEeG6WpQ5tPmNdQ" targetItem="_Wicn7RBMEeG6WpQ5tPmNdQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:ConnectionVisual" xmi:id="_WiTd-RBMEeG6WpQ5tPmNdQ" sourceItem="_WiTd-BBMEeG6WpQ5tPmNdQ" targetItem="_Wicn8RBMEeG6WpQ5tPmNdQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:ConnectionVisual" xmi:id="_WiTd-xBMEeG6WpQ5tPmNdQ" sourceItem="_WiTd-hBMEeG6WpQ5tPmNdQ" targetItem="_Wicn9xBMEeG6WpQ5tPmNdQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:ConnectionVisual" xmi:id="_WiTd_RBMEeG6WpQ5tPmNdQ" sourceItem="_WiTd_BBMEeG6WpQ5tPmNdQ" targetItem="_Wicn_RBMEeG6WpQ5tPmNdQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:ConnectionVisual" xmi:id="_WiTd_xBMEeG6WpQ5tPmNdQ" sourceItem="_WiTd_hBMEeG6WpQ5tPmNdQ" targetItem="_WicoAxBMEeG6WpQ5tPmNdQ"/>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:CommentVisual" xmi:id="_WgNzQBBMEeG6WpQ5tPmNdQ" item="_WgW9RxBMEeG6WpQ5tPmNdQ" sourceConnectionVisual="_WgNzQRBMEeG6WpQ5tPmNdQ" text="BigIntNumber is a wrapper for BigIntegers to implement interface Numeric.&#xD;&#xA;&#xD;&#xA;@author (your name) &#xD;&#xA;@version (a version number or a date)">
+    <modelElement href="model.uml#_UUvaMBBMEeG6WpQ5tPmNdQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:CommentVisual" xmi:id="_WgW9MBBMEeG6WpQ5tPmNdQ" item="_WgW9ThBMEeG6WpQ5tPmNdQ" sourceConnectionVisual="_WgW9MRBMEeG6WpQ5tPmNdQ" text="Constructor for objects of class BigIntNumber">
+    <modelElement href="model.uml#_UUvaMRBMEeG6WpQ5tPmNdQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:CommentVisual" xmi:id="_WgW9MhBMEeG6WpQ5tPmNdQ" item="_WgW9WRBMEeG6WpQ5tPmNdQ" sourceConnectionVisual="_WgW9MxBMEeG6WpQ5tPmNdQ" text="Returns an object reopresenting thge zero value for the type">
+    <modelElement href="model.uml#_UUvaOBBMEeG6WpQ5tPmNdQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:CommentVisual" xmi:id="_WgW9NBBMEeG6WpQ5tPmNdQ" item="_WgW9XRBMEeG6WpQ5tPmNdQ" sourceConnectionVisual="_WgW9NRBMEeG6WpQ5tPmNdQ" text="Returns a copy of the object implementing numeric">
+    <modelElement href="model.uml#_UUvaORBMEeG6WpQ5tPmNdQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:CommentVisual" xmi:id="_WgW9NhBMEeG6WpQ5tPmNdQ" item="_WgW9YRBMEeG6WpQ5tPmNdQ" sourceConnectionVisual="_WgW9NxBMEeG6WpQ5tPmNdQ" text="Adds two numeric objects and returns a new object holding the sum&#xD;&#xA;     * &#xD;&#xA;     * @param  term   Numeric object add with&#xD;&#xA;     * @return        sum">
+    <modelElement href="model.uml#_UUvaMxBMEeG6WpQ5tPmNdQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:CommentVisual" xmi:id="_WgW9OBBMEeG6WpQ5tPmNdQ" item="_WgW9ZxBMEeG6WpQ5tPmNdQ" sourceConnectionVisual="_WgW9ORBMEeG6WpQ5tPmNdQ" text="Subtracts two numeric objects and returns a new object holding the difference&#xD;&#xA;     * &#xD;&#xA;     * @param  term   term to subtract from this Numeric object&#xD;&#xA;     * @return difference">
+    <modelElement href="model.uml#_UUvaNBBMEeG6WpQ5tPmNdQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:CommentVisual" xmi:id="_WgW9OhBMEeG6WpQ5tPmNdQ" item="_WgguMhBMEeG6WpQ5tPmNdQ" sourceConnectionVisual="_WgW9OxBMEeG6WpQ5tPmNdQ" text="Multiplies two numeric objects and returns a new object holding the product&#xD;&#xA;     * &#xD;&#xA;     * @param  multiplier Numeric object to multiply with&#xD;&#xA;     * return product">
+    <modelElement href="model.uml#_UUvaNRBMEeG6WpQ5tPmNdQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:CommentVisual" xmi:id="_WgW9PBBMEeG6WpQ5tPmNdQ" item="_WgguOBBMEeG6WpQ5tPmNdQ" sourceConnectionVisual="_WgW9PRBMEeG6WpQ5tPmNdQ" text="Divides two numeric objects and returns a new object holding the quotient&#xD;&#xA;     * &#xD;&#xA;     * @param  divisor Numeric object to divide to&#xD;&#xA;     * @return quotient">
+    <modelElement href="model.uml#_UUvaNhBMEeG6WpQ5tPmNdQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:CommentVisual" xmi:id="_WgW9PhBMEeG6WpQ5tPmNdQ" item="_WgguPhBMEeG6WpQ5tPmNdQ" sourceConnectionVisual="_WgW9PxBMEeG6WpQ5tPmNdQ" text="Constructor for objects of class BigIntNumber">
+    <modelElement href="model.uml#_UUvaMhBMEeG6WpQ5tPmNdQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:CommentVisual" xmi:id="_WgW9QBBMEeG6WpQ5tPmNdQ" item="_WgguRRBMEeG6WpQ5tPmNdQ" sourceConnectionVisual="_WgW9QRBMEeG6WpQ5tPmNdQ" text="Returns an object representing the zero value for the type">
+    <modelElement href="model.uml#_UUvaNxBMEeG6WpQ5tPmNdQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:CommentVisual" xmi:id="_WhtBABBMEeG6WpQ5tPmNdQ" item="_Wh2yChBMEeG6WpQ5tPmNdQ" sourceConnectionVisual="_WhtBARBMEeG6WpQ5tPmNdQ" text="Constructor for Fraction&#xD;&#xA;     * creates a unitary fraction">
+    <modelElement href="model.uml#_UUvaOhBMEeG6WpQ5tPmNdQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:CommentVisual" xmi:id="_WhtBAhBMEeG6WpQ5tPmNdQ" item="_Wh2yDxBMEeG6WpQ5tPmNdQ" sourceConnectionVisual="_WhtBAxBMEeG6WpQ5tPmNdQ" text="Constructor for Fractionm&#xD;&#xA;     * @param n - numerator, integer&#xD;&#xA;     * @param m - denominator, integer&#xD;&#xA;     * By convention, the sign is kept with the numerator; &#xD;&#xA;     * thus, negative deniminators are not legal">
+    <modelElement href="model.uml#_UUvaOxBMEeG6WpQ5tPmNdQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:CommentVisual" xmi:id="_WhtBBBBMEeG6WpQ5tPmNdQ" item="_Wh2yGBBMEeG6WpQ5tPmNdQ" sourceConnectionVisual="_WhtBBRBMEeG6WpQ5tPmNdQ" text="Simplifies this fraction">
+    <modelElement href="model.uml#_UUvaQRBMEeG6WpQ5tPmNdQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:CommentVisual" xmi:id="_WhtBBhBMEeG6WpQ5tPmNdQ" item="_Wh2yGhBMEeG6WpQ5tPmNdQ" sourceConnectionVisual="_WhtBBxBMEeG6WpQ5tPmNdQ" text="Swaps numerator with denominator; thus inverts fraction">
+    <modelElement href="model.uml#_UUvaQhBMEeG6WpQ5tPmNdQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:CommentVisual" xmi:id="_WhtBCBBMEeG6WpQ5tPmNdQ" item="_Wh2yHBBMEeG6WpQ5tPmNdQ" sourceConnectionVisual="_WhtBCRBMEeG6WpQ5tPmNdQ" text="Returns the real equivalent of this fraction&#xD;&#xA;     * @return a double approx. equal to this fraction">
+    <modelElement href="model.uml#_UUvaQxBMEeG6WpQ5tPmNdQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:CommentVisual" xmi:id="_WhtBChBMEeG6WpQ5tPmNdQ" item="_Wh2yIBBMEeG6WpQ5tPmNdQ" sourceConnectionVisual="_WhtBCxBMEeG6WpQ5tPmNdQ" text="@retruns a String representation of this fraction">
+    <modelElement href="model.uml#_UUvaRRBMEeG6WpQ5tPmNdQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:CommentVisual" xmi:id="_WhtBDBBMEeG6WpQ5tPmNdQ" item="_Wh2yLBBMEeG6WpQ5tPmNdQ" sourceConnectionVisual="_WhtBDRBMEeG6WpQ5tPmNdQ" text="Greatest common divisor of two integers a and b">
+    <modelElement href="model.uml#_UUvaSBBMEeG6WpQ5tPmNdQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:CommentVisual" xmi:id="_WhtBDhBMEeG6WpQ5tPmNdQ" item="_Wh2yNBBMEeG6WpQ5tPmNdQ" sourceConnectionVisual="_WhtBDxBMEeG6WpQ5tPmNdQ" text="Least common multiple of two integers a and b">
+    <modelElement href="model.uml#_UUvaSRBMEeG6WpQ5tPmNdQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:CommentVisual" xmi:id="_WhtBEBBMEeG6WpQ5tPmNdQ" item="_Wh2yPBBMEeG6WpQ5tPmNdQ" sourceConnectionVisual="_WhtBERBMEeG6WpQ5tPmNdQ" text="Copy constructor for Fraction&#xD;&#xA;     * Creates a duplicate of the fraction givenas an argument&#xD;&#xA;     * @param f - Fraction to duplicate">
+    <modelElement href="model.uml#_UUvaPBBMEeG6WpQ5tPmNdQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:CommentVisual" xmi:id="_WhtBEhBMEeG6WpQ5tPmNdQ" item="_Wh2yQxBMEeG6WpQ5tPmNdQ" sourceConnectionVisual="_WhtBExBMEeG6WpQ5tPmNdQ" text="Adds this fraction with the one given as an argument&#xD;&#xA;     * and accumulates the result in this fraction&#xD;&#xA;     * @param f - fraction to add with">
+    <modelElement href="model.uml#_UUvaPRBMEeG6WpQ5tPmNdQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:CommentVisual" xmi:id="_WhtBFBBMEeG6WpQ5tPmNdQ" item="_Wh2ySRBMEeG6WpQ5tPmNdQ" sourceConnectionVisual="_WhtBFRBMEeG6WpQ5tPmNdQ" text="Subtracts from this fraction the one given as an argument&#xD;&#xA;     * and accumulates the result in this fraction&#xD;&#xA;     * @param f - fraction to subtract from this one">
+    <modelElement href="model.uml#_UUvaPhBMEeG6WpQ5tPmNdQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:CommentVisual" xmi:id="_WhtBFhBMEeG6WpQ5tPmNdQ" item="_Wh2yTxBMEeG6WpQ5tPmNdQ" sourceConnectionVisual="_WhtBFxBMEeG6WpQ5tPmNdQ" text="Multiplies this fraction by the one given as an argument&#xD;&#xA;     * and accumulates the result in this fraction&#xD;&#xA;     * @param f - fraction to multiply with">
+    <modelElement href="model.uml#_UUvaPxBMEeG6WpQ5tPmNdQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:CommentVisual" xmi:id="_WhtBGBBMEeG6WpQ5tPmNdQ" item="_Wh2yVRBMEeG6WpQ5tPmNdQ" sourceConnectionVisual="_WhtBGRBMEeG6WpQ5tPmNdQ" text="Divides this fraction through the one given as an argument&#xD;&#xA;     * and accumulates the result in this fraction&#xD;&#xA;     * @param f - fraction to divide to">
+    <modelElement href="model.uml#_UUvaQBBMEeG6WpQ5tPmNdQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:CommentVisual" xmi:id="_WhtBGhBMEeG6WpQ5tPmNdQ" item="_Wh2yWxBMEeG6WpQ5tPmNdQ" sourceConnectionVisual="_WhtBGxBMEeG6WpQ5tPmNdQ" text="Checks wether this fraction is equal to another&#xD;&#xA;     * @param fraction to check if equal with&#xD;&#xA;     * @return true if equal; false otherwise">
+    <modelElement href="model.uml#_UUvaRBBMEeG6WpQ5tPmNdQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:CommentVisual" xmi:id="_WhtBHBBMEeG6WpQ5tPmNdQ" item="_Wh2yYRBMEeG6WpQ5tPmNdQ" sourceConnectionVisual="_WhtBHRBMEeG6WpQ5tPmNdQ" text="Simplifies the fraction given as an argument and returns it&#xD;&#xA;     * Does not change original fraction&#xD;&#xA;     * @param f - fraction to simplify&#xD;&#xA;     * @return reference to simplified fraction">
+    <modelElement href="model.uml#_UUvaRxBMEeG6WpQ5tPmNdQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:CommentVisual" xmi:id="_WhtBHhBMEeG6WpQ5tPmNdQ" item="_Wh2yZxBMEeG6WpQ5tPmNdQ" sourceConnectionVisual="_WhtBHxBMEeG6WpQ5tPmNdQ" text="Compares this fraction to the one given as an argument&#xD;&#xA;     * @param o - fraction to compare to&#xD;&#xA;     * @return 1 if this is greater; 0 if equal; -1 if less">
+    <modelElement href="model.uml#_UUvaRhBMEeG6WpQ5tPmNdQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:CommentVisual" xmi:id="_Wh2ybhBMEeG6WpQ5tPmNdQ" item="_WiJtABBMEeG6WpQ5tPmNdQ" sourceConnectionVisual="_Wh_78BBMEeG6WpQ5tPmNdQ" text="IntNumber is a wrapper for class Integer to implement interface Numeric&#xD;&#xA;&#xD;&#xA;@author (your name) &#xD;&#xA;@version (a version number or a date)">
+    <modelElement href="model.uml#_UUvaShBMEeG6WpQ5tPmNdQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:CommentVisual" xmi:id="_WiJs8BBMEeG6WpQ5tPmNdQ" item="_WiJtBxBMEeG6WpQ5tPmNdQ" sourceConnectionVisual="_WiJs8RBMEeG6WpQ5tPmNdQ" text="Constructor for objects of class IntNumber">
+    <modelElement href="model.uml#_UUvaSxBMEeG6WpQ5tPmNdQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:CommentVisual" xmi:id="_WiJs8hBMEeG6WpQ5tPmNdQ" item="_WiJtEhBMEeG6WpQ5tPmNdQ" sourceConnectionVisual="_WiJs8xBMEeG6WpQ5tPmNdQ" text="Returns an object reopresenting the zero value for the type">
+    <modelElement href="model.uml#_UUvaURBMEeG6WpQ5tPmNdQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:CommentVisual" xmi:id="_WiJs9BBMEeG6WpQ5tPmNdQ" item="_WiJtFhBMEeG6WpQ5tPmNdQ" sourceConnectionVisual="_WiJs9RBMEeG6WpQ5tPmNdQ" text="Returns a copy of the object implementing numeric">
+    <modelElement href="model.uml#_UUvaUhBMEeG6WpQ5tPmNdQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:CommentVisual" xmi:id="_WiJs9hBMEeG6WpQ5tPmNdQ" item="_WiJtGhBMEeG6WpQ5tPmNdQ" sourceConnectionVisual="_WiJs9xBMEeG6WpQ5tPmNdQ" text="Adds two numeric objects and returns a new object holding the sum&#xD;&#xA;     * &#xD;&#xA;     * @param  term   Numeric object add with&#xD;&#xA;     * @return        result of this + term">
+    <modelElement href="model.uml#_UUvaTBBMEeG6WpQ5tPmNdQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:CommentVisual" xmi:id="_WiJs-BBMEeG6WpQ5tPmNdQ" item="_WiJtIBBMEeG6WpQ5tPmNdQ" sourceConnectionVisual="_WiJs-RBMEeG6WpQ5tPmNdQ" text="Subtracts two numeric objects and returns a new object holding the difference&#xD;&#xA;     * &#xD;&#xA;     * @param  term   term to subtract from this Numeric object">
+    <modelElement href="model.uml#_UUvaTRBMEeG6WpQ5tPmNdQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:CommentVisual" xmi:id="_WiJs-hBMEeG6WpQ5tPmNdQ" item="_WiJtJhBMEeG6WpQ5tPmNdQ" sourceConnectionVisual="_WiJs-xBMEeG6WpQ5tPmNdQ" text="Multiplies two numeric objects and returns a new object holding the product&#xD;&#xA;     * &#xD;&#xA;     * @param  multiplier Numeric object to multiply with">
+    <modelElement href="model.uml#_UUvaThBMEeG6WpQ5tPmNdQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:CommentVisual" xmi:id="_WiJs_BBMEeG6WpQ5tPmNdQ" item="_WiJtLBBMEeG6WpQ5tPmNdQ" sourceConnectionVisual="_WiJs_RBMEeG6WpQ5tPmNdQ" text="Divides two numeric objects and returns a new object holding the quotient&#xD;&#xA;     * &#xD;&#xA;     * @param  divisor Numeric object to divide to&#xD;&#xA;     * @return        result of this / divisor">
+    <modelElement href="model.uml#_UUvaTxBMEeG6WpQ5tPmNdQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:CommentVisual" xmi:id="_WiJs_hBMEeG6WpQ5tPmNdQ" item="_WiJtMhBMEeG6WpQ5tPmNdQ" sourceConnectionVisual="_WiJs_xBMEeG6WpQ5tPmNdQ" text="Returns an object representing the zero value for the type">
+    <modelElement href="model.uml#_UUvaUBBMEeG6WpQ5tPmNdQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:CommentVisual" xmi:id="_WiTd8RBMEeG6WpQ5tPmNdQ" item="_Wicn5xBMEeG6WpQ5tPmNdQ" sourceConnectionVisual="_WiTd8hBMEeG6WpQ5tPmNdQ" text="Write a description of interface Numeric here.&#xD;&#xA;&#xD;&#xA;@author (your name) &#xD;&#xA;@version (a version number or a date)">
+    <modelElement href="model.uml#_UUvaUxBMEeG6WpQ5tPmNdQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:CommentVisual" xmi:id="_WiTd9hBMEeG6WpQ5tPmNdQ" item="_Wicn7RBMEeG6WpQ5tPmNdQ" sourceConnectionVisual="_WiTd9xBMEeG6WpQ5tPmNdQ" text="Returns a copy of the object implementing numeric">
+    <modelElement href="model.uml#_UUvaWBBMEeG6WpQ5tPmNdQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:CommentVisual" xmi:id="_WiTd-BBMEeG6WpQ5tPmNdQ" item="_Wicn8RBMEeG6WpQ5tPmNdQ" sourceConnectionVisual="_WiTd-RBMEeG6WpQ5tPmNdQ" text="Adds two numeric objects and returns a new object holding the sum&#xD;&#xA;     * &#xD;&#xA;     * @param  term   Numeric object add with&#xD;&#xA;     * @return sum">
+    <modelElement href="model.uml#_UUvaVBBMEeG6WpQ5tPmNdQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:CommentVisual" xmi:id="_WiTd-hBMEeG6WpQ5tPmNdQ" item="_Wicn9xBMEeG6WpQ5tPmNdQ" sourceConnectionVisual="_WiTd-xBMEeG6WpQ5tPmNdQ" text="Subtracts two numeric objects and returns a new object holding the difference&#xD;&#xA;     * &#xD;&#xA;     * @param  term   term to subtract from this Numeric object&#xD;&#xA;     * @return difference">
+    <modelElement href="model.uml#_UUvaVRBMEeG6WpQ5tPmNdQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:CommentVisual" xmi:id="_WiTd_BBMEeG6WpQ5tPmNdQ" item="_Wicn_RBMEeG6WpQ5tPmNdQ" sourceConnectionVisual="_WiTd_RBMEeG6WpQ5tPmNdQ" text="Multiplies two numeric objects and returns a new object holding the product&#xD;&#xA;     * &#xD;&#xA;     * @param  multiplier Numeric object to multiply with&#xD;&#xA;     * @return product">
+    <modelElement href="model.uml#_UUvaVhBMEeG6WpQ5tPmNdQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:CommentVisual" xmi:id="_WiTd_hBMEeG6WpQ5tPmNdQ" item="_WicoAxBMEeG6WpQ5tPmNdQ" sourceConnectionVisual="_WiTd_xBMEeG6WpQ5tPmNdQ" text="Divides two numeric objects and returns a new object holding the quotient&#xD;&#xA;     * &#xD;&#xA;     * @param  divisor Numeric object to divide to&#xD;&#xA;     * @return quotient">
+    <modelElement href="model.uml#_UUvaVxBMEeG6WpQ5tPmNdQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_WfeMYBBMEeG6WpQ5tPmNdQ" name="BigInteger" associationsIn="_WfeMZBBMEeG6WpQ5tPmNdQ">
+    <modelElement href="model.uml#_UTsRUBBMEeG6WpQ5tPmNdQ"/>
+    <visualProperties xmi:id="_WfeMYxBMEeG6WpQ5tPmNdQ" position="519.0,836.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_WfeMYRBMEeG6WpQ5tPmNdQ" name="Reference">
+      <modelElement href="model.uml#_UTsRURBMEeG6WpQ5tPmNdQ"/>
+    </stereotypes>
+    <visibility xmi:id="_WfeMYhBMEeG6WpQ5tPmNdQ" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_WgW9RxBMEeG6WpQ5tPmNdQ" comments="_WgNzQBBMEeG6WpQ5tPmNdQ" targetConnectionVisual="_WgNzQRBMEeG6WpQ5tPmNdQ" name="BigIntNumber" associationsOut="_WfeMZBBMEeG6WpQ5tPmNdQ" generalizations="_WiTd8xBMEeG6WpQ5tPmNdQ">
+    <modelElement href="model.uml#_UIE3MBBMEeG6WpQ5tPmNdQ"/>
+    <visualProperties xmi:id="_WgguSxBMEeG6WpQ5tPmNdQ" position="11.0,744.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_WgW9SBBMEeG6WpQ5tPmNdQ" label="+"/>
+    <attributes xmi:id="_WgW9SRBMEeG6WpQ5tPmNdQ" name="value">
+      <modelElement href="model.uml#_UUSuSRBMEeG6WpQ5tPmNdQ"/>
+      <stereotypes xmi:id="_j5QagBBYEeGYiOwcBQRKpA" name="LegacyStyledElement">
+        <modelElement href="model.uml#_UUSuShBMEeG6WpQ5tPmNdQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_kOvs4BBZEeGv8cwo389_XA" name="LegacyStyledElement">
+        <modelElement href="model.uml#_UUSuShBMEeG6WpQ5tPmNdQ"/>
+      </stereotypes>
+      <visibility xmi:id="_WgW9SxBMEeG6WpQ5tPmNdQ" label="-"/>
+      <cardinality xmi:id="_WgW9TBBMEeG6WpQ5tPmNdQ" label="1" max="1" min="1"/>
+      <type xmi:id="_WgW9TRBMEeG6WpQ5tPmNdQ" name="BigInteger">
+        <modelElement href="model.uml#_UTsRUBBMEeG6WpQ5tPmNdQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_WgW9ThBMEeG6WpQ5tPmNdQ" comments="_WgW9MBBMEeG6WpQ5tPmNdQ" targetConnectionVisual="_WgW9MRBMEeG6WpQ5tPmNdQ" name="BigIntNumber">
+      <modelElement href="model.uml#_UIE3MRBMEeG6WpQ5tPmNdQ"/>
+      <keywords xmi:id="_WgW9TxBMEeG6WpQ5tPmNdQ" keyword="create"/>
+      <visibility xmi:id="_WgW9UBBMEeG6WpQ5tPmNdQ" label="+"/>
+      <outParameters xmi:id="_WgW9URBMEeG6WpQ5tPmNdQ">
+        <modelElement href="model.uml#_UIE3NRBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_WgW9UhBMEeG6WpQ5tPmNdQ" name="BigIntNumber">
+          <modelElement href="model.uml#_UIE3MBBMEeG6WpQ5tPmNdQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_WgW9UxBMEeG6WpQ5tPmNdQ" name="s">
+        <modelElement href="model.uml#_UIE3MhBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_WgW9VBBMEeG6WpQ5tPmNdQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_WgW9VRBMEeG6WpQ5tPmNdQ" name="toString">
+      <modelElement href="model.uml#_UIOBIBBMEeG6WpQ5tPmNdQ"/>
+      <visibility xmi:id="_WgW9VhBMEeG6WpQ5tPmNdQ" label="+"/>
+      <outParameters xmi:id="_WgW9VxBMEeG6WpQ5tPmNdQ">
+        <modelElement href="model.uml#_UIOBIRBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_WgW9WBBMEeG6WpQ5tPmNdQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_WgW9WRBMEeG6WpQ5tPmNdQ" comments="_WgW9MhBMEeG6WpQ5tPmNdQ" targetConnectionVisual="_WgW9MxBMEeG6WpQ5tPmNdQ" name="getZero">
+      <modelElement href="model.uml#_UIOBIhBMEeG6WpQ5tPmNdQ"/>
+      <visibility xmi:id="_WgW9WhBMEeG6WpQ5tPmNdQ" label="+"/>
+      <outParameters xmi:id="_WgW9WxBMEeG6WpQ5tPmNdQ">
+        <modelElement href="model.uml#_UT_zUBBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_WgW9XBBMEeG6WpQ5tPmNdQ" name="Numeric">
+          <modelElement href="model.uml#_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_WgW9XRBMEeG6WpQ5tPmNdQ" comments="_WgW9NBBMEeG6WpQ5tPmNdQ" targetConnectionVisual="_WgW9NRBMEeG6WpQ5tPmNdQ" name="copy">
+      <modelElement href="model.uml#_UIOBIxBMEeG6WpQ5tPmNdQ"/>
+      <visibility xmi:id="_WgW9XhBMEeG6WpQ5tPmNdQ" label="+"/>
+      <outParameters xmi:id="_WgW9XxBMEeG6WpQ5tPmNdQ">
+        <modelElement href="model.uml#_UT_zURBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_WgW9YBBMEeG6WpQ5tPmNdQ" name="Numeric">
+          <modelElement href="model.uml#_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_WgW9YRBMEeG6WpQ5tPmNdQ" comments="_WgW9NhBMEeG6WpQ5tPmNdQ" targetConnectionVisual="_WgW9NxBMEeG6WpQ5tPmNdQ" name="add">
+      <modelElement href="model.uml#_UT2CURBMEeG6WpQ5tPmNdQ"/>
+      <visibility xmi:id="_WgW9YhBMEeG6WpQ5tPmNdQ" label="+"/>
+      <outParameters xmi:id="_WgW9YxBMEeG6WpQ5tPmNdQ">
+        <modelElement href="model.uml#_UT2CUxBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_WgW9ZBBMEeG6WpQ5tPmNdQ" name="Numeric">
+          <modelElement href="model.uml#_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_WgW9ZRBMEeG6WpQ5tPmNdQ" name="term">
+        <modelElement href="model.uml#_UT2CUhBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_WgW9ZhBMEeG6WpQ5tPmNdQ" name="Numeric">
+          <modelElement href="model.uml#_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_WgW9ZxBMEeG6WpQ5tPmNdQ" comments="_WgW9OBBMEeG6WpQ5tPmNdQ" targetConnectionVisual="_WgW9ORBMEeG6WpQ5tPmNdQ" name="subtract">
+      <modelElement href="model.uml#_UT2CVBBMEeG6WpQ5tPmNdQ"/>
+      <visibility xmi:id="_WgW9aBBMEeG6WpQ5tPmNdQ" label="+"/>
+      <outParameters xmi:id="_WgW9aRBMEeG6WpQ5tPmNdQ">
+        <modelElement href="model.uml#_UT2CVhBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_WgW9ahBMEeG6WpQ5tPmNdQ" name="Numeric">
+          <modelElement href="model.uml#_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_WgguMBBMEeG6WpQ5tPmNdQ" name="term">
+        <modelElement href="model.uml#_UT2CVRBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_WgguMRBMEeG6WpQ5tPmNdQ" name="Numeric">
+          <modelElement href="model.uml#_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_WgguMhBMEeG6WpQ5tPmNdQ" comments="_WgW9OhBMEeG6WpQ5tPmNdQ" targetConnectionVisual="_WgW9OxBMEeG6WpQ5tPmNdQ" name="multiply">
+      <modelElement href="model.uml#_UT2CVxBMEeG6WpQ5tPmNdQ"/>
+      <visibility xmi:id="_WgguMxBMEeG6WpQ5tPmNdQ" label="+"/>
+      <outParameters xmi:id="_WgguNBBMEeG6WpQ5tPmNdQ">
+        <modelElement href="model.uml#_UT2CWRBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_WgguNRBMEeG6WpQ5tPmNdQ" name="Numeric">
+          <modelElement href="model.uml#_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_WgguNhBMEeG6WpQ5tPmNdQ" name="multiplier">
+        <modelElement href="model.uml#_UT2CWBBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_WgguNxBMEeG6WpQ5tPmNdQ" name="Numeric">
+          <modelElement href="model.uml#_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_WgguOBBMEeG6WpQ5tPmNdQ" comments="_WgW9PBBMEeG6WpQ5tPmNdQ" targetConnectionVisual="_WgW9PRBMEeG6WpQ5tPmNdQ" name="divide">
+      <modelElement href="model.uml#_UT2CWhBMEeG6WpQ5tPmNdQ"/>
+      <visibility xmi:id="_WgguORBMEeG6WpQ5tPmNdQ" label="+"/>
+      <outParameters xmi:id="_WgguOhBMEeG6WpQ5tPmNdQ">
+        <modelElement href="model.uml#_UT2CXBBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_WgguOxBMEeG6WpQ5tPmNdQ" name="Numeric">
+          <modelElement href="model.uml#_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_WgguPBBMEeG6WpQ5tPmNdQ" name="divisor">
+        <modelElement href="model.uml#_UT2CWxBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_WgguPRBMEeG6WpQ5tPmNdQ" name="Numeric">
+          <modelElement href="model.uml#_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_WgguPhBMEeG6WpQ5tPmNdQ" comments="_WgW9PhBMEeG6WpQ5tPmNdQ" targetConnectionVisual="_WgW9PxBMEeG6WpQ5tPmNdQ" name="BigIntNumber">
+      <modelElement href="model.uml#_UUI9UhBMEeG6WpQ5tPmNdQ"/>
+      <keywords xmi:id="_WgguPxBMEeG6WpQ5tPmNdQ" keyword="create"/>
+      <visibility xmi:id="_WgguQBBMEeG6WpQ5tPmNdQ" label="+"/>
+      <outParameters xmi:id="_WgguQRBMEeG6WpQ5tPmNdQ">
+        <modelElement href="model.uml#_UUI9VhBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_WgguQhBMEeG6WpQ5tPmNdQ" name="BigIntNumber">
+          <modelElement href="model.uml#_UIE3MBBMEeG6WpQ5tPmNdQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_WgguQxBMEeG6WpQ5tPmNdQ" name="b">
+        <modelElement href="model.uml#_UUI9UxBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_WgguRBBMEeG6WpQ5tPmNdQ" name="BigInteger">
+          <modelElement href="model.uml#_UTsRUBBMEeG6WpQ5tPmNdQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_WgguRRBMEeG6WpQ5tPmNdQ" comments="_WgW9QBBMEeG6WpQ5tPmNdQ" targetConnectionVisual="_WgW9QRBMEeG6WpQ5tPmNdQ" name="compareTo">
+      <modelElement href="model.uml#_UUI9WhBMEeG6WpQ5tPmNdQ"/>
+      <visibility xmi:id="_WgguRhBMEeG6WpQ5tPmNdQ" label="+"/>
+      <outParameters xmi:id="_WgguRxBMEeG6WpQ5tPmNdQ">
+        <modelElement href="model.uml#_UUI9XBBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_WgguSBBMEeG6WpQ5tPmNdQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_WgguSRBMEeG6WpQ5tPmNdQ" name="val">
+        <modelElement href="model.uml#_UUI9WxBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_WgguShBMEeG6WpQ5tPmNdQ" name="Object">
+          <modelElement href="model.uml#_UUI9WBBMEeG6WpQ5tPmNdQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_WgguTBBMEeG6WpQ5tPmNdQ" name="Comparable" subclassedBy="_WhjQARBMEeG6WpQ5tPmNdQ _WiTd8BBMEeG6WpQ5tPmNdQ">
+    <modelElement href="model.uml#_UUI9XRBMEeG6WpQ5tPmNdQ"/>
+    <visualProperties xmi:id="_WhjQABBMEeG6WpQ5tPmNdQ" position="284.0,36.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_WgguTRBMEeG6WpQ5tPmNdQ" name="Reference">
+      <modelElement href="model.uml#_UUSuQBBMEeG6WpQ5tPmNdQ"/>
+    </stereotypes>
+    <visibility xmi:id="_WgguThBMEeG6WpQ5tPmNdQ" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Wh2yABBMEeG6WpQ5tPmNdQ" name="Fraction" generalizations="_WhjQARBMEeG6WpQ5tPmNdQ _WiTd9BBMEeG6WpQ5tPmNdQ">
+    <modelElement href="model.uml#_UIXyIBBMEeG6WpQ5tPmNdQ"/>
+    <visualProperties xmi:id="_Wh2ybRBMEeG6WpQ5tPmNdQ" position="454.0,386.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Wh2yARBMEeG6WpQ5tPmNdQ" label="+"/>
+    <attributes xmi:id="_Wh2yAhBMEeG6WpQ5tPmNdQ" name="numerator">
+      <modelElement href="model.uml#_UUSuSxBMEeG6WpQ5tPmNdQ"/>
+      <visibility xmi:id="_Wh2yAxBMEeG6WpQ5tPmNdQ" label="+"/>
+      <cardinality xmi:id="_Wh2yBBBMEeG6WpQ5tPmNdQ" label="1" max="1" min="1"/>
+      <type xmi:id="_Wh2yBRBMEeG6WpQ5tPmNdQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Wh2yBhBMEeG6WpQ5tPmNdQ" name="denominator">
+      <modelElement href="model.uml#_UUSuTBBMEeG6WpQ5tPmNdQ"/>
+      <visibility xmi:id="_Wh2yBxBMEeG6WpQ5tPmNdQ" label="+"/>
+      <cardinality xmi:id="_Wh2yCBBMEeG6WpQ5tPmNdQ" label="1" max="1" min="1"/>
+      <type xmi:id="_Wh2yCRBMEeG6WpQ5tPmNdQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Wh2yChBMEeG6WpQ5tPmNdQ" comments="_WhtBABBMEeG6WpQ5tPmNdQ" targetConnectionVisual="_WhtBARBMEeG6WpQ5tPmNdQ" name="Fraction">
+      <modelElement href="model.uml#_UIXyIRBMEeG6WpQ5tPmNdQ"/>
+      <keywords xmi:id="_Wh2yCxBMEeG6WpQ5tPmNdQ" keyword="create"/>
+      <visibility xmi:id="_Wh2yDBBMEeG6WpQ5tPmNdQ" label="+"/>
+      <outParameters xmi:id="_Wh2yDRBMEeG6WpQ5tPmNdQ">
+        <modelElement href="model.uml#_UIXyJBBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_Wh2yDhBMEeG6WpQ5tPmNdQ" name="Fraction">
+          <modelElement href="model.uml#_UIXyIBBMEeG6WpQ5tPmNdQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Wh2yDxBMEeG6WpQ5tPmNdQ" comments="_WhtBAhBMEeG6WpQ5tPmNdQ" targetConnectionVisual="_WhtBAxBMEeG6WpQ5tPmNdQ" name="Fraction">
+      <modelElement href="model.uml#_UIXyJRBMEeG6WpQ5tPmNdQ"/>
+      <keywords xmi:id="_Wh2yEBBMEeG6WpQ5tPmNdQ" keyword="create"/>
+      <visibility xmi:id="_Wh2yERBMEeG6WpQ5tPmNdQ" label="+"/>
+      <outParameters xmi:id="_Wh2yEhBMEeG6WpQ5tPmNdQ">
+        <modelElement href="model.uml#_UIXyKhBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_Wh2yExBMEeG6WpQ5tPmNdQ" name="Fraction">
+          <modelElement href="model.uml#_UIXyIBBMEeG6WpQ5tPmNdQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Wh2yFBBMEeG6WpQ5tPmNdQ" name="n">
+        <modelElement href="model.uml#_UIXyJhBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_Wh2yFRBMEeG6WpQ5tPmNdQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Wh2yFhBMEeG6WpQ5tPmNdQ" name="d">
+        <modelElement href="model.uml#_UIXyJxBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_Wh2yFxBMEeG6WpQ5tPmNdQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Wh2yGBBMEeG6WpQ5tPmNdQ" comments="_WhtBBBBMEeG6WpQ5tPmNdQ" targetConnectionVisual="_WhtBBRBMEeG6WpQ5tPmNdQ" name="simplify">
+      <modelElement href="model.uml#_UIXyKxBMEeG6WpQ5tPmNdQ"/>
+      <visibility xmi:id="_Wh2yGRBMEeG6WpQ5tPmNdQ" label="+"/>
+    </operations>
+    <operations xmi:id="_Wh2yGhBMEeG6WpQ5tPmNdQ" comments="_WhtBBhBMEeG6WpQ5tPmNdQ" targetConnectionVisual="_WhtBBxBMEeG6WpQ5tPmNdQ" name="swap">
+      <modelElement href="model.uml#_UIXyLBBMEeG6WpQ5tPmNdQ"/>
+      <visibility xmi:id="_Wh2yGxBMEeG6WpQ5tPmNdQ" label="+"/>
+    </operations>
+    <operations xmi:id="_Wh2yHBBMEeG6WpQ5tPmNdQ" comments="_WhtBCBBMEeG6WpQ5tPmNdQ" targetConnectionVisual="_WhtBCRBMEeG6WpQ5tPmNdQ" name="toDouble">
+      <modelElement href="model.uml#_UIXyLRBMEeG6WpQ5tPmNdQ"/>
+      <visibility xmi:id="_Wh2yHRBMEeG6WpQ5tPmNdQ" label="+"/>
+      <outParameters xmi:id="_Wh2yHhBMEeG6WpQ5tPmNdQ">
+        <modelElement href="model.uml#_UIXyLhBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_Wh2yHxBMEeG6WpQ5tPmNdQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Wh2yIBBMEeG6WpQ5tPmNdQ" comments="_WhtBChBMEeG6WpQ5tPmNdQ" targetConnectionVisual="_WhtBCxBMEeG6WpQ5tPmNdQ" name="toString">
+      <modelElement href="model.uml#_UIXyLxBMEeG6WpQ5tPmNdQ"/>
+      <visibility xmi:id="_Wh2yIRBMEeG6WpQ5tPmNdQ" label="+"/>
+      <outParameters xmi:id="_Wh2yIhBMEeG6WpQ5tPmNdQ">
+        <modelElement href="model.uml#_UIXyMBBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_Wh2yIxBMEeG6WpQ5tPmNdQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Wh2yJBBMEeG6WpQ5tPmNdQ" name="copy">
+      <modelElement href="model.uml#_UIXyMRBMEeG6WpQ5tPmNdQ"/>
+      <visibility xmi:id="_Wh2yJRBMEeG6WpQ5tPmNdQ" label="+"/>
+      <outParameters xmi:id="_Wh2yJhBMEeG6WpQ5tPmNdQ">
+        <modelElement href="model.uml#_UT_zahBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_Wh2yJxBMEeG6WpQ5tPmNdQ" name="Numeric">
+          <modelElement href="model.uml#_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Wh2yKBBMEeG6WpQ5tPmNdQ" name="getZero">
+      <modelElement href="model.uml#_UIXyMhBMEeG6WpQ5tPmNdQ"/>
+      <visibility xmi:id="_Wh2yKRBMEeG6WpQ5tPmNdQ" label="+"/>
+      <outParameters xmi:id="_Wh2yKhBMEeG6WpQ5tPmNdQ">
+        <modelElement href="model.uml#_UT_zaxBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_Wh2yKxBMEeG6WpQ5tPmNdQ" name="Fraction">
+          <modelElement href="model.uml#_UIXyIBBMEeG6WpQ5tPmNdQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Wh2yLBBMEeG6WpQ5tPmNdQ" comments="_WhtBDBBMEeG6WpQ5tPmNdQ" targetConnectionVisual="_WhtBDRBMEeG6WpQ5tPmNdQ" name="getGCD" staticOperation="true">
+      <modelElement href="model.uml#_UIXyMxBMEeG6WpQ5tPmNdQ"/>
+      <visibility xmi:id="_Wh2yLRBMEeG6WpQ5tPmNdQ" label="-"/>
+      <outParameters xmi:id="_Wh2yLhBMEeG6WpQ5tPmNdQ">
+        <modelElement href="model.uml#_UIhjIBBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_Wh2yLxBMEeG6WpQ5tPmNdQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Wh2yMBBMEeG6WpQ5tPmNdQ" name="a">
+        <modelElement href="model.uml#_UIXyNBBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_Wh2yMRBMEeG6WpQ5tPmNdQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Wh2yMhBMEeG6WpQ5tPmNdQ" name="b">
+        <modelElement href="model.uml#_UIXyNRBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_Wh2yMxBMEeG6WpQ5tPmNdQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Wh2yNBBMEeG6WpQ5tPmNdQ" comments="_WhtBDhBMEeG6WpQ5tPmNdQ" targetConnectionVisual="_WhtBDxBMEeG6WpQ5tPmNdQ" name="getLCM" staticOperation="true">
+      <modelElement href="model.uml#_UIhjIRBMEeG6WpQ5tPmNdQ"/>
+      <visibility xmi:id="_Wh2yNRBMEeG6WpQ5tPmNdQ" label="-"/>
+      <outParameters xmi:id="_Wh2yNhBMEeG6WpQ5tPmNdQ">
+        <modelElement href="model.uml#_UIhjJBBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_Wh2yNxBMEeG6WpQ5tPmNdQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Wh2yOBBMEeG6WpQ5tPmNdQ" name="a">
+        <modelElement href="model.uml#_UIhjIhBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_Wh2yORBMEeG6WpQ5tPmNdQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Wh2yOhBMEeG6WpQ5tPmNdQ" name="b">
+        <modelElement href="model.uml#_UIhjIxBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_Wh2yOxBMEeG6WpQ5tPmNdQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Wh2yPBBMEeG6WpQ5tPmNdQ" comments="_WhtBEBBMEeG6WpQ5tPmNdQ" targetConnectionVisual="_WhtBERBMEeG6WpQ5tPmNdQ" name="Fraction">
+      <modelElement href="model.uml#_UT_zUxBMEeG6WpQ5tPmNdQ"/>
+      <keywords xmi:id="_Wh2yPRBMEeG6WpQ5tPmNdQ" keyword="create"/>
+      <visibility xmi:id="_Wh2yPhBMEeG6WpQ5tPmNdQ" label="+"/>
+      <outParameters xmi:id="_Wh2yPxBMEeG6WpQ5tPmNdQ">
+        <modelElement href="model.uml#_UT_zVxBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_Wh2yQBBMEeG6WpQ5tPmNdQ" name="Fraction">
+          <modelElement href="model.uml#_UIXyIBBMEeG6WpQ5tPmNdQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Wh2yQRBMEeG6WpQ5tPmNdQ" name="f">
+        <modelElement href="model.uml#_UT_zVBBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_Wh2yQhBMEeG6WpQ5tPmNdQ" name="Fraction">
+          <modelElement href="model.uml#_UIXyIBBMEeG6WpQ5tPmNdQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Wh2yQxBMEeG6WpQ5tPmNdQ" comments="_WhtBEhBMEeG6WpQ5tPmNdQ" targetConnectionVisual="_WhtBExBMEeG6WpQ5tPmNdQ" name="add">
+      <modelElement href="model.uml#_UT_zWBBMEeG6WpQ5tPmNdQ"/>
+      <visibility xmi:id="_Wh2yRBBMEeG6WpQ5tPmNdQ" label="+"/>
+      <outParameters xmi:id="_Wh2yRRBMEeG6WpQ5tPmNdQ">
+        <modelElement href="model.uml#_UT_zWhBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_Wh2yRhBMEeG6WpQ5tPmNdQ" name="Numeric">
+          <modelElement href="model.uml#_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Wh2yRxBMEeG6WpQ5tPmNdQ" name="f">
+        <modelElement href="model.uml#_UT_zWRBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_Wh2ySBBMEeG6WpQ5tPmNdQ" name="Numeric">
+          <modelElement href="model.uml#_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Wh2ySRBMEeG6WpQ5tPmNdQ" comments="_WhtBFBBMEeG6WpQ5tPmNdQ" targetConnectionVisual="_WhtBFRBMEeG6WpQ5tPmNdQ" name="subtract">
+      <modelElement href="model.uml#_UT_zWxBMEeG6WpQ5tPmNdQ"/>
+      <visibility xmi:id="_Wh2yShBMEeG6WpQ5tPmNdQ" label="+"/>
+      <outParameters xmi:id="_Wh2ySxBMEeG6WpQ5tPmNdQ">
+        <modelElement href="model.uml#_UT_zXRBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_Wh2yTBBMEeG6WpQ5tPmNdQ" name="Numeric">
+          <modelElement href="model.uml#_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Wh2yTRBMEeG6WpQ5tPmNdQ" name="f">
+        <modelElement href="model.uml#_UT_zXBBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_Wh2yThBMEeG6WpQ5tPmNdQ" name="Numeric">
+          <modelElement href="model.uml#_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Wh2yTxBMEeG6WpQ5tPmNdQ" comments="_WhtBFhBMEeG6WpQ5tPmNdQ" targetConnectionVisual="_WhtBFxBMEeG6WpQ5tPmNdQ" name="multiply">
+      <modelElement href="model.uml#_UT_zXhBMEeG6WpQ5tPmNdQ"/>
+      <visibility xmi:id="_Wh2yUBBMEeG6WpQ5tPmNdQ" label="+"/>
+      <outParameters xmi:id="_Wh2yURBMEeG6WpQ5tPmNdQ">
+        <modelElement href="model.uml#_UT_zYBBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_Wh2yUhBMEeG6WpQ5tPmNdQ" name="Numeric">
+          <modelElement href="model.uml#_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Wh2yUxBMEeG6WpQ5tPmNdQ" name="f">
+        <modelElement href="model.uml#_UT_zXxBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_Wh2yVBBMEeG6WpQ5tPmNdQ" name="Numeric">
+          <modelElement href="model.uml#_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Wh2yVRBMEeG6WpQ5tPmNdQ" comments="_WhtBGBBMEeG6WpQ5tPmNdQ" targetConnectionVisual="_WhtBGRBMEeG6WpQ5tPmNdQ" name="divide">
+      <modelElement href="model.uml#_UT_zYRBMEeG6WpQ5tPmNdQ"/>
+      <visibility xmi:id="_Wh2yVhBMEeG6WpQ5tPmNdQ" label="+"/>
+      <outParameters xmi:id="_Wh2yVxBMEeG6WpQ5tPmNdQ">
+        <modelElement href="model.uml#_UT_zYxBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_Wh2yWBBMEeG6WpQ5tPmNdQ" name="Numeric">
+          <modelElement href="model.uml#_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Wh2yWRBMEeG6WpQ5tPmNdQ" name="f">
+        <modelElement href="model.uml#_UT_zYhBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_Wh2yWhBMEeG6WpQ5tPmNdQ" name="Numeric">
+          <modelElement href="model.uml#_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Wh2yWxBMEeG6WpQ5tPmNdQ" comments="_WhtBGhBMEeG6WpQ5tPmNdQ" targetConnectionVisual="_WhtBGxBMEeG6WpQ5tPmNdQ" name="equals">
+      <modelElement href="model.uml#_UT_zZBBMEeG6WpQ5tPmNdQ"/>
+      <visibility xmi:id="_Wh2yXBBMEeG6WpQ5tPmNdQ" label="+"/>
+      <outParameters xmi:id="_Wh2yXRBMEeG6WpQ5tPmNdQ">
+        <modelElement href="model.uml#_UT_zZhBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_Wh2yXhBMEeG6WpQ5tPmNdQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Wh2yXxBMEeG6WpQ5tPmNdQ" name="f">
+        <modelElement href="model.uml#_UT_zZRBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_Wh2yYBBMEeG6WpQ5tPmNdQ" name="Fraction">
+          <modelElement href="model.uml#_UIXyIBBMEeG6WpQ5tPmNdQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Wh2yYRBMEeG6WpQ5tPmNdQ" comments="_WhtBHBBMEeG6WpQ5tPmNdQ" targetConnectionVisual="_WhtBHRBMEeG6WpQ5tPmNdQ" name="simplify" staticOperation="true">
+      <modelElement href="model.uml#_UT_zZxBMEeG6WpQ5tPmNdQ"/>
+      <visibility xmi:id="_Wh2yYhBMEeG6WpQ5tPmNdQ" label="+"/>
+      <outParameters xmi:id="_Wh2yYxBMEeG6WpQ5tPmNdQ">
+        <modelElement href="model.uml#_UT_zaRBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_Wh2yZBBMEeG6WpQ5tPmNdQ" name="Fraction">
+          <modelElement href="model.uml#_UIXyIBBMEeG6WpQ5tPmNdQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Wh2yZRBMEeG6WpQ5tPmNdQ" name="f">
+        <modelElement href="model.uml#_UT_zaBBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_Wh2yZhBMEeG6WpQ5tPmNdQ" name="Fraction">
+          <modelElement href="model.uml#_UIXyIBBMEeG6WpQ5tPmNdQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Wh2yZxBMEeG6WpQ5tPmNdQ" comments="_WhtBHhBMEeG6WpQ5tPmNdQ" targetConnectionVisual="_WhtBHxBMEeG6WpQ5tPmNdQ" name="compareTo">
+      <modelElement href="model.uml#_UUSuQhBMEeG6WpQ5tPmNdQ"/>
+      <visibility xmi:id="_Wh2yaBBMEeG6WpQ5tPmNdQ" label="+"/>
+      <outParameters xmi:id="_Wh2yaRBMEeG6WpQ5tPmNdQ">
+        <modelElement href="model.uml#_UUSuRBBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_Wh2yahBMEeG6WpQ5tPmNdQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Wh2yaxBMEeG6WpQ5tPmNdQ" name="o">
+        <modelElement href="model.uml#_UUSuQxBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_Wh2ybBBMEeG6WpQ5tPmNdQ" name="Object">
+          <modelElement href="model.uml#_UUI9WBBMEeG6WpQ5tPmNdQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_WiJtABBMEeG6WpQ5tPmNdQ" comments="_Wh2ybhBMEeG6WpQ5tPmNdQ" targetConnectionVisual="_Wh_78BBMEeG6WpQ5tPmNdQ" name="IntNumber" generalizations="_WiTd9RBMEeG6WpQ5tPmNdQ">
+    <modelElement href="model.uml#_UIhjJRBMEeG6WpQ5tPmNdQ"/>
+    <visualProperties xmi:id="_WiJtOBBMEeG6WpQ5tPmNdQ" position="169.0,389.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_WiJtARBMEeG6WpQ5tPmNdQ" label="+"/>
+    <attributes xmi:id="_WiJtAhBMEeG6WpQ5tPmNdQ" name="value">
+      <modelElement href="model.uml#_UUSuTRBMEeG6WpQ5tPmNdQ"/>
+      <stereotypes xmi:id="_WiJtAxBMEeG6WpQ5tPmNdQ" name="LegacyStyledElement">
+        <modelElement href="model.uml#_UUSuThBMEeG6WpQ5tPmNdQ"/>
+      </stereotypes>
+      <visibility xmi:id="_WiJtBBBMEeG6WpQ5tPmNdQ" label="-"/>
+      <cardinality xmi:id="_WiJtBRBMEeG6WpQ5tPmNdQ" label="1" max="1" min="1"/>
+      <type xmi:id="_WiJtBhBMEeG6WpQ5tPmNdQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_WiJtBxBMEeG6WpQ5tPmNdQ" comments="_WiJs8BBMEeG6WpQ5tPmNdQ" targetConnectionVisual="_WiJs8RBMEeG6WpQ5tPmNdQ" name="IntNumber">
+      <modelElement href="model.uml#_UIqtEBBMEeG6WpQ5tPmNdQ"/>
+      <keywords xmi:id="_WiJtCBBMEeG6WpQ5tPmNdQ" keyword="create"/>
+      <visibility xmi:id="_WiJtCRBMEeG6WpQ5tPmNdQ" label="+"/>
+      <outParameters xmi:id="_WiJtChBMEeG6WpQ5tPmNdQ">
+        <modelElement href="model.uml#_UIqtFBBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_WiJtCxBMEeG6WpQ5tPmNdQ" name="IntNumber">
+          <modelElement href="model.uml#_UIhjJRBMEeG6WpQ5tPmNdQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_WiJtDBBMEeG6WpQ5tPmNdQ" name="intVal">
+        <modelElement href="model.uml#_UIqtERBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_WiJtDRBMEeG6WpQ5tPmNdQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_WiJtDhBMEeG6WpQ5tPmNdQ" name="toString">
+      <modelElement href="model.uml#_UIqtFRBMEeG6WpQ5tPmNdQ"/>
+      <visibility xmi:id="_WiJtDxBMEeG6WpQ5tPmNdQ" label="+"/>
+      <outParameters xmi:id="_WiJtEBBMEeG6WpQ5tPmNdQ">
+        <modelElement href="model.uml#_UIqtFhBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_WiJtERBMEeG6WpQ5tPmNdQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_WiJtEhBMEeG6WpQ5tPmNdQ" comments="_WiJs8hBMEeG6WpQ5tPmNdQ" targetConnectionVisual="_WiJs8xBMEeG6WpQ5tPmNdQ" name="getZero">
+      <modelElement href="model.uml#_UIqtFxBMEeG6WpQ5tPmNdQ"/>
+      <visibility xmi:id="_WiJtExBMEeG6WpQ5tPmNdQ" label="+"/>
+      <outParameters xmi:id="_WiJtFBBMEeG6WpQ5tPmNdQ">
+        <modelElement href="model.uml#_UUI9QxBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_WiJtFRBMEeG6WpQ5tPmNdQ" name="Numeric">
+          <modelElement href="model.uml#_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_WiJtFhBMEeG6WpQ5tPmNdQ" comments="_WiJs9BBMEeG6WpQ5tPmNdQ" targetConnectionVisual="_WiJs9RBMEeG6WpQ5tPmNdQ" name="copy">
+      <modelElement href="model.uml#_UIqtGBBMEeG6WpQ5tPmNdQ"/>
+      <visibility xmi:id="_WiJtFxBMEeG6WpQ5tPmNdQ" label="+"/>
+      <outParameters xmi:id="_WiJtGBBMEeG6WpQ5tPmNdQ">
+        <modelElement href="model.uml#_UUI9RBBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_WiJtGRBMEeG6WpQ5tPmNdQ" name="Numeric">
+          <modelElement href="model.uml#_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_WiJtGhBMEeG6WpQ5tPmNdQ" comments="_WiJs9hBMEeG6WpQ5tPmNdQ" targetConnectionVisual="_WiJs9xBMEeG6WpQ5tPmNdQ" name="add">
+      <modelElement href="model.uml#_UT_zbRBMEeG6WpQ5tPmNdQ"/>
+      <visibility xmi:id="_WiJtGxBMEeG6WpQ5tPmNdQ" label="+"/>
+      <outParameters xmi:id="_WiJtHBBMEeG6WpQ5tPmNdQ">
+        <modelElement href="model.uml#_UT_zbxBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_WiJtHRBMEeG6WpQ5tPmNdQ" name="Numeric">
+          <modelElement href="model.uml#_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_WiJtHhBMEeG6WpQ5tPmNdQ" name="term">
+        <modelElement href="model.uml#_UT_zbhBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_WiJtHxBMEeG6WpQ5tPmNdQ" name="Numeric">
+          <modelElement href="model.uml#_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_WiJtIBBMEeG6WpQ5tPmNdQ" comments="_WiJs-BBMEeG6WpQ5tPmNdQ" targetConnectionVisual="_WiJs-RBMEeG6WpQ5tPmNdQ" name="subtract">
+      <modelElement href="model.uml#_UT_zcBBMEeG6WpQ5tPmNdQ"/>
+      <visibility xmi:id="_WiJtIRBMEeG6WpQ5tPmNdQ" label="+"/>
+      <outParameters xmi:id="_WiJtIhBMEeG6WpQ5tPmNdQ">
+        <modelElement href="model.uml#_UT_zchBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_WiJtIxBMEeG6WpQ5tPmNdQ" name="Numeric">
+          <modelElement href="model.uml#_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_WiJtJBBMEeG6WpQ5tPmNdQ" name="term">
+        <modelElement href="model.uml#_UT_zcRBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_WiJtJRBMEeG6WpQ5tPmNdQ" name="Numeric">
+          <modelElement href="model.uml#_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_WiJtJhBMEeG6WpQ5tPmNdQ" comments="_WiJs-hBMEeG6WpQ5tPmNdQ" targetConnectionVisual="_WiJs-xBMEeG6WpQ5tPmNdQ" name="multiply">
+      <modelElement href="model.uml#_UT_zcxBMEeG6WpQ5tPmNdQ"/>
+      <visibility xmi:id="_WiJtJxBMEeG6WpQ5tPmNdQ" label="+"/>
+      <outParameters xmi:id="_WiJtKBBMEeG6WpQ5tPmNdQ">
+        <modelElement href="model.uml#_UT_zdRBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_WiJtKRBMEeG6WpQ5tPmNdQ" name="Numeric">
+          <modelElement href="model.uml#_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_WiJtKhBMEeG6WpQ5tPmNdQ" name="multiplier">
+        <modelElement href="model.uml#_UT_zdBBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_WiJtKxBMEeG6WpQ5tPmNdQ" name="Numeric">
+          <modelElement href="model.uml#_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_WiJtLBBMEeG6WpQ5tPmNdQ" comments="_WiJs_BBMEeG6WpQ5tPmNdQ" targetConnectionVisual="_WiJs_RBMEeG6WpQ5tPmNdQ" name="divide">
+      <modelElement href="model.uml#_UUI9QBBMEeG6WpQ5tPmNdQ"/>
+      <visibility xmi:id="_WiJtLRBMEeG6WpQ5tPmNdQ" label="+"/>
+      <outParameters xmi:id="_WiJtLhBMEeG6WpQ5tPmNdQ">
+        <modelElement href="model.uml#_UUI9QhBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_WiJtLxBMEeG6WpQ5tPmNdQ" name="Numeric">
+          <modelElement href="model.uml#_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_WiJtMBBMEeG6WpQ5tPmNdQ" name="divisor">
+        <modelElement href="model.uml#_UUI9QRBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_WiJtMRBMEeG6WpQ5tPmNdQ" name="Numeric">
+          <modelElement href="model.uml#_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_WiJtMhBMEeG6WpQ5tPmNdQ" comments="_WiJs_hBMEeG6WpQ5tPmNdQ" targetConnectionVisual="_WiJs_xBMEeG6WpQ5tPmNdQ" name="compareTo">
+      <modelElement href="model.uml#_UUSuRRBMEeG6WpQ5tPmNdQ"/>
+      <visibility xmi:id="_WiJtMxBMEeG6WpQ5tPmNdQ" label="+"/>
+      <outParameters xmi:id="_WiJtNBBMEeG6WpQ5tPmNdQ">
+        <modelElement href="model.uml#_UUSuRxBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_WiJtNRBMEeG6WpQ5tPmNdQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_WiJtNhBMEeG6WpQ5tPmNdQ" name="val">
+        <modelElement href="model.uml#_UUSuRhBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_WiJtNxBMEeG6WpQ5tPmNdQ" name="Object">
+          <modelElement href="model.uml#_UUI9WBBMEeG6WpQ5tPmNdQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_WicoChBMEeG6WpQ5tPmNdQ" name="Object">
+    <modelElement href="model.uml#_UUI9WBBMEeG6WpQ5tPmNdQ"/>
+    <visualProperties xmi:id="_WimY4BBMEeG6WpQ5tPmNdQ" position="753.0,30.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_WicoCxBMEeG6WpQ5tPmNdQ" name="Reference">
+      <modelElement href="model.uml#_UUI9WRBMEeG6WpQ5tPmNdQ"/>
+    </stereotypes>
+    <visibility xmi:id="_WicoDBBMEeG6WpQ5tPmNdQ" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_Wicn5xBMEeG6WpQ5tPmNdQ" comments="_WiTd8RBMEeG6WpQ5tPmNdQ" targetConnectionVisual="_WiTd8hBMEeG6WpQ5tPmNdQ" name="Numeric" associationsIn="_WiJtORBMEeG6WpQ5tPmNdQ" associationsOut="_WiJtORBMEeG6WpQ5tPmNdQ" generalizations="_WiTd8BBMEeG6WpQ5tPmNdQ" subclassedBy="_WiTd8xBMEeG6WpQ5tPmNdQ _WiTd9BBMEeG6WpQ5tPmNdQ _WiTd9RBMEeG6WpQ5tPmNdQ">
+    <modelElement href="model.uml#_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+    <visualProperties xmi:id="_WicoCRBMEeG6WpQ5tPmNdQ" position="169.0,160.0" size="258.0,137.0"/>
+    <visibility xmi:id="_Wicn6BBMEeG6WpQ5tPmNdQ" label="+"/>
+    <attributes xmi:id="_Wicn6RBMEeG6WpQ5tPmNdQ" name="zero">
+      <modelElement href="model.uml#_UI9oABBMEeG6WpQ5tPmNdQ"/>
+      <visibility xmi:id="_Wicn6hBMEeG6WpQ5tPmNdQ" label="+"/>
+      <cardinality xmi:id="_Wicn6xBMEeG6WpQ5tPmNdQ" label="1" max="1" min="1"/>
+      <type xmi:id="_Wicn7BBMEeG6WpQ5tPmNdQ" name="Numeric">
+        <modelElement href="model.uml#_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Wicn7RBMEeG6WpQ5tPmNdQ" comments="_WiTd9hBMEeG6WpQ5tPmNdQ" targetConnectionVisual="_WiTd9xBMEeG6WpQ5tPmNdQ" name="copy">
+      <modelElement href="model.uml#_UI9oARBMEeG6WpQ5tPmNdQ"/>
+      <visibility xmi:id="_Wicn7hBMEeG6WpQ5tPmNdQ" label="+"/>
+      <outParameters xmi:id="_Wicn7xBMEeG6WpQ5tPmNdQ">
+        <modelElement href="model.uml#_UUI9URBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_Wicn8BBMEeG6WpQ5tPmNdQ" name="Numeric">
+          <modelElement href="model.uml#_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Wicn8RBMEeG6WpQ5tPmNdQ" comments="_WiTd-BBMEeG6WpQ5tPmNdQ" targetConnectionVisual="_WiTd-RBMEeG6WpQ5tPmNdQ" name="add">
+      <modelElement href="model.uml#_UUI9RRBMEeG6WpQ5tPmNdQ"/>
+      <visibility xmi:id="_Wicn8hBMEeG6WpQ5tPmNdQ" label="+"/>
+      <outParameters xmi:id="_Wicn8xBMEeG6WpQ5tPmNdQ">
+        <modelElement href="model.uml#_UUI9RxBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_Wicn9BBMEeG6WpQ5tPmNdQ" name="Numeric">
+          <modelElement href="model.uml#_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Wicn9RBMEeG6WpQ5tPmNdQ" name="term">
+        <modelElement href="model.uml#_UUI9RhBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_Wicn9hBMEeG6WpQ5tPmNdQ" name="Numeric">
+          <modelElement href="model.uml#_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Wicn9xBMEeG6WpQ5tPmNdQ" comments="_WiTd-hBMEeG6WpQ5tPmNdQ" targetConnectionVisual="_WiTd-xBMEeG6WpQ5tPmNdQ" name="subtract">
+      <modelElement href="model.uml#_UUI9SBBMEeG6WpQ5tPmNdQ"/>
+      <visibility xmi:id="_Wicn-BBMEeG6WpQ5tPmNdQ" label="+"/>
+      <outParameters xmi:id="_Wicn-RBMEeG6WpQ5tPmNdQ">
+        <modelElement href="model.uml#_UUI9ShBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_Wicn-hBMEeG6WpQ5tPmNdQ" name="Numeric">
+          <modelElement href="model.uml#_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Wicn-xBMEeG6WpQ5tPmNdQ" name="term">
+        <modelElement href="model.uml#_UUI9SRBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_Wicn_BBMEeG6WpQ5tPmNdQ" name="Numeric">
+          <modelElement href="model.uml#_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Wicn_RBMEeG6WpQ5tPmNdQ" comments="_WiTd_BBMEeG6WpQ5tPmNdQ" targetConnectionVisual="_WiTd_RBMEeG6WpQ5tPmNdQ" name="multiply">
+      <modelElement href="model.uml#_UUI9SxBMEeG6WpQ5tPmNdQ"/>
+      <visibility xmi:id="_Wicn_hBMEeG6WpQ5tPmNdQ" label="~"/>
+      <outParameters xmi:id="_Wicn_xBMEeG6WpQ5tPmNdQ">
+        <modelElement href="model.uml#_UUI9TRBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_WicoABBMEeG6WpQ5tPmNdQ" name="Numeric">
+          <modelElement href="model.uml#_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_WicoARBMEeG6WpQ5tPmNdQ" name="multiplier">
+        <modelElement href="model.uml#_UUI9TBBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_WicoAhBMEeG6WpQ5tPmNdQ" name="Numeric">
+          <modelElement href="model.uml#_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_WicoAxBMEeG6WpQ5tPmNdQ" comments="_WiTd_hBMEeG6WpQ5tPmNdQ" targetConnectionVisual="_WiTd_xBMEeG6WpQ5tPmNdQ" name="divide">
+      <modelElement href="model.uml#_UUI9ThBMEeG6WpQ5tPmNdQ"/>
+      <visibility xmi:id="_WicoBBBMEeG6WpQ5tPmNdQ" label="+"/>
+      <outParameters xmi:id="_WicoBRBMEeG6WpQ5tPmNdQ">
+        <modelElement href="model.uml#_UUI9UBBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_WicoBhBMEeG6WpQ5tPmNdQ" name="Numeric">
+          <modelElement href="model.uml#_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_WicoBxBMEeG6WpQ5tPmNdQ" name="divisor">
+        <modelElement href="model.uml#_UUI9TxBMEeG6WpQ5tPmNdQ"/>
+        <type xmi:id="_WicoCBBMEeG6WpQ5tPmNdQ" name="Numeric">
+          <modelElement href="model.uml#_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

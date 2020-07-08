@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=TwoPower
+comment0.text=\r\n\ 2.\ The\ legend\ says\ that\ the\ inventor\ of\ the\ game\ of\ chess\ asked\ a\ number\ of\ wheat\ grains\:\ a\ double\r\n\ \ amount\ for\ each\ of\ the\ 64\ squares\ of\ the\ board\ (i.e.1\ for\ the\ first\ square,\ 2\ for\ the\ second,\ 4\ for\ the\r\n\ \ third,\ 2i-1\r\n\ \ for\ the\ ith.\ Hint\:\ use\ BigInteger\ class.\ \r\n
+comment1.params=
+comment1.target=void\ Main()
+numComments=2

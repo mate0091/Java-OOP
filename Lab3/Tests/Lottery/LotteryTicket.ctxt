@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=n\ m
+comment0.target=LotteryTicket(int,\ int)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ LotteryTicket\r\n\ @param\ n\ how\ many\ numbers\ one\ can\ write\ on\ a\ ticket\r\n\ @param\ m\ highest\ value\ which\ can\ be\ written\ on\ a\ ticket\r\n
+comment1.params=
+comment1.target=java.lang.String\ toString()
+comment1.text=\r\n\ Returns\ a\ String\ with\ the\ numbers\ on\ this\ lotto\ ticket\r\n
+comment2.params=
+comment2.target=void\ list()
+comment2.text=\r\n\ Prints\ to\ System.out\ the\ contents\ of\ this\ ticket\r\n
+comment3.params=
+comment3.target=void\ readNumbers()
+comment3.text=\r\n\ Accepts\ numbers\ to\ write\ on\ this\ tiicket\ from\ System.in\r\n\ and\ writes\ them\ on\ the\ ticket\r\n
+comment4.params=
+comment4.target=int[]\ whatNumbers()
+comment4.text=\ \r\n\ returns\ an\ array\ of\ numbers\ written\ on\ this\ ticket\r\n\ @return\ array\ of\ ints\ with\ the\ numbers\ on\ this\ ticket\r\n
+comment5.params=
+comment5.target=void\ autofill()
+comment5.text=\r\n\ Autofills\ a\ ticket\ with\ random\ numbers\r\n
+numComments=6

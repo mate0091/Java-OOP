@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=TestDrive
+comment0.text=\r\n\ TestDrive\ demonstrates\ creating\ and\ calling\ \r\nM.\ Joldo\u015F\ Laboratory\ Guide\ 4.\ Flow\ Control\ and\ Simple\ Classes\r\nT.U.\ Cluj-Napoca\ Object\ Oriented\ Programming\ 8\r\n\ methods\ on\ Car\ object.\r\n\r\n\ @author\ Laboratory\ Team\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=void\ start()
+comment3.params=c
+comment3.target=void\ driveCar(Car)
+numComments=4

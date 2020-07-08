@@ -1,0 +1,847 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_Tz9BUBBMEeG6WpQ5tPmNdQ" name="model">
+    <eAnnotations xmi:id="_T0soMBBMEeG6WpQ5tPmNdQ" source="http://www.yatta-solutions.com/umllab/codegen/codegenDirectory">
+      <details xmi:id="_T0soMRBMEeG6WpQ5tPmNdQ" key="codegenDirectory" value="/Numeric"/>
+    </eAnnotations>
+    <eAnnotations xmi:id="_UVCVIBBMEeG6WpQ5tPmNdQ" source="com.yattasolutions.codegen.RoundTripInformation">
+      <details xmi:id="_UVCVIRBMEeG6WpQ5tPmNdQ" key="AssociatedSourceCode" value="/Numeric/BigIntNumber.java;2898414277/1;/Numeric/Fraction.java;1959259734/1;/Numeric/IntNumber.java;3505530980/1;/Numeric/Numeric.java;1553400573/1;"/>
+    </eAnnotations>
+    <elementImport xmi:id="_UHBuUBBMEeG6WpQ5tPmNdQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_UHBuURBMEeG6WpQ5tPmNdQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_UHBuUhBMEeG6WpQ5tPmNdQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_UHBuUxBMEeG6WpQ5tPmNdQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_UHBuVBBMEeG6WpQ5tPmNdQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_UHBuVRBMEeG6WpQ5tPmNdQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_UHBuVhBMEeG6WpQ5tPmNdQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_UHBuVxBMEeG6WpQ5tPmNdQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_UHBuWBBMEeG6WpQ5tPmNdQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_UHLfUBBMEeG6WpQ5tPmNdQ" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_UHLfURBMEeG6WpQ5tPmNdQ" name="math">
+        <packagedElement xmi:type="uml:Class" xmi:id="_UTsRUBBMEeG6WpQ5tPmNdQ" name="BigInteger"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_UUI9VxBMEeG6WpQ5tPmNdQ" name="lang">
+        <packagedElement xmi:type="uml:Class" xmi:id="_UUI9WBBMEeG6WpQ5tPmNdQ" name="Object"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_UUI9XRBMEeG6WpQ5tPmNdQ" name="Comparable"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_UIE3MBBMEeG6WpQ5tPmNdQ" name="BigIntNumber" clientDependency="_UT2CUBBMEeG6WpQ5tPmNdQ">
+      <ownedComment xmi:id="_UUvaMBBMEeG6WpQ5tPmNdQ">
+        <body>BigIntNumber is a wrapper for BigIntegers to implement interface Numeric.&#xD;
+&#xD;
+@author (your name) &#xD;
+@version (a version number or a date)</body>
+      </ownedComment>
+      <ownedAttribute xmi:id="_UUSuSRBMEeG6WpQ5tPmNdQ" name="value" visibility="private" type="_UTsRUBBMEeG6WpQ5tPmNdQ" association="_UUvaXBBMEeG6WpQ5tPmNdQ"/>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_UUcfQBBMEeG6WpQ5tPmNdQ" name="BigIntNumber" specification="_UIE3MRBMEeG6WpQ5tPmNdQ">
+        <ownedParameter xmi:id="_UUcfQRBMEeG6WpQ5tPmNdQ" name="s">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_UUcfQhBMEeG6WpQ5tPmNdQ" type="_UIE3MBBMEeG6WpQ5tPmNdQ" direction="return"/>
+        <language>java</language>
+        <body>value = new BigInteger(s);&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_UUlpMBBMEeG6WpQ5tPmNdQ" name="BigIntNumber" specification="_UUI9UhBMEeG6WpQ5tPmNdQ">
+        <ownedParameter xmi:id="_UUlpMRBMEeG6WpQ5tPmNdQ" name="b" type="_UTsRUBBMEeG6WpQ5tPmNdQ"/>
+        <ownedParameter xmi:id="_UUlpMhBMEeG6WpQ5tPmNdQ" type="_UIE3MBBMEeG6WpQ5tPmNdQ" direction="return"/>
+        <language>java</language>
+        <body>value = b;&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_UUlpMxBMEeG6WpQ5tPmNdQ" name="add" specification="_UT2CURBMEeG6WpQ5tPmNdQ">
+        <ownedParameter xmi:id="_UUlpNBBMEeG6WpQ5tPmNdQ" name="term" type="_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        <ownedParameter xmi:id="_UUlpNRBMEeG6WpQ5tPmNdQ" type="_UI0eEBBMEeG6WpQ5tPmNdQ" direction="return"/>
+        <language>java</language>
+        <body>return new BigIntNumber(value.add(((BigIntNumber)term).value));&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_UUlpNhBMEeG6WpQ5tPmNdQ" name="subtract" specification="_UT2CVBBMEeG6WpQ5tPmNdQ">
+        <ownedParameter xmi:id="_UUlpNxBMEeG6WpQ5tPmNdQ" name="term" type="_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        <ownedParameter xmi:id="_UUlpOBBMEeG6WpQ5tPmNdQ" type="_UI0eEBBMEeG6WpQ5tPmNdQ" direction="return"/>
+        <language>java</language>
+        <body>return new BigIntNumber(value.subtract(((BigIntNumber)term).value));&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_UUlpORBMEeG6WpQ5tPmNdQ" name="multiply" specification="_UT2CVxBMEeG6WpQ5tPmNdQ">
+        <ownedParameter xmi:id="_UUlpOhBMEeG6WpQ5tPmNdQ" name="multiplier" type="_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        <ownedParameter xmi:id="_UUlpOxBMEeG6WpQ5tPmNdQ" type="_UI0eEBBMEeG6WpQ5tPmNdQ" direction="return"/>
+        <language>java</language>
+        <body>return new BigIntNumber(value.multiply(((BigIntNumber)multiplier).value));&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_UUlpPBBMEeG6WpQ5tPmNdQ" name="divide" specification="_UT2CWhBMEeG6WpQ5tPmNdQ">
+        <ownedParameter xmi:id="_UUlpPRBMEeG6WpQ5tPmNdQ" name="divisor" type="_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        <ownedParameter xmi:id="_UUlpPhBMEeG6WpQ5tPmNdQ" type="_UI0eEBBMEeG6WpQ5tPmNdQ" direction="return"/>
+        <language>java</language>
+        <body>return new BigIntNumber(value.divide(((BigIntNumber)divisor).value));&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_UUlpPxBMEeG6WpQ5tPmNdQ" name="compareTo" specification="_UUI9WhBMEeG6WpQ5tPmNdQ">
+        <ownedParameter xmi:id="_UUlpQBBMEeG6WpQ5tPmNdQ" name="val" type="_UUI9WBBMEeG6WpQ5tPmNdQ"/>
+        <ownedParameter xmi:id="_UUlpQRBMEeG6WpQ5tPmNdQ" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return value.compareTo(((BigIntNumber)val).value);&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_UUlpQhBMEeG6WpQ5tPmNdQ" name="toString" specification="_UIOBIBBMEeG6WpQ5tPmNdQ">
+        <ownedParameter xmi:id="_UUlpQxBMEeG6WpQ5tPmNdQ" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return value.toString();&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_UUlpRBBMEeG6WpQ5tPmNdQ" name="getZero" specification="_UIOBIhBMEeG6WpQ5tPmNdQ">
+        <ownedParameter xmi:id="_UUlpRRBMEeG6WpQ5tPmNdQ" type="_UI0eEBBMEeG6WpQ5tPmNdQ" direction="return"/>
+        <language>java</language>
+        <body>return new BigIntNumber(&quot;0&quot;);&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_UUlpRhBMEeG6WpQ5tPmNdQ" name="copy" specification="_UIOBIxBMEeG6WpQ5tPmNdQ">
+        <ownedParameter xmi:id="_UUlpRxBMEeG6WpQ5tPmNdQ" type="_UI0eEBBMEeG6WpQ5tPmNdQ" direction="return"/>
+        <language>java</language>
+        <body>return new BigIntNumber(value.toString());&#xD;
+ </body>
+      </ownedBehavior>
+      <interfaceRealization xmi:id="_UT2CUBBMEeG6WpQ5tPmNdQ" supplier="_UI0eEBBMEeG6WpQ5tPmNdQ" client="_UIE3MBBMEeG6WpQ5tPmNdQ" contract="_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+      <ownedOperation xmi:id="_UIE3MRBMEeG6WpQ5tPmNdQ" name="BigIntNumber" method="_UUcfQBBMEeG6WpQ5tPmNdQ">
+        <eAnnotations xmi:id="_UIE3MxBMEeG6WpQ5tPmNdQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_UIE3NBBMEeG6WpQ5tPmNdQ" key="create"/>
+        </eAnnotations>
+        <ownedComment xmi:id="_UUvaMRBMEeG6WpQ5tPmNdQ">
+          <body>Constructor for objects of class BigIntNumber</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_UIE3MhBMEeG6WpQ5tPmNdQ" name="s">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_UIE3NRBMEeG6WpQ5tPmNdQ" type="_UIE3MBBMEeG6WpQ5tPmNdQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_UIOBIBBMEeG6WpQ5tPmNdQ" name="toString" method="_UUlpQhBMEeG6WpQ5tPmNdQ">
+        <ownedParameter xmi:id="_UIOBIRBMEeG6WpQ5tPmNdQ" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_UIOBIhBMEeG6WpQ5tPmNdQ" name="getZero" method="_UUlpRBBMEeG6WpQ5tPmNdQ">
+        <ownedComment xmi:id="_UUvaOBBMEeG6WpQ5tPmNdQ">
+          <body>Returns an object reopresenting thge zero value for the type</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_UT_zUBBMEeG6WpQ5tPmNdQ" type="_UI0eEBBMEeG6WpQ5tPmNdQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_UIOBIxBMEeG6WpQ5tPmNdQ" name="copy" method="_UUlpRhBMEeG6WpQ5tPmNdQ">
+        <ownedComment xmi:id="_UUvaORBMEeG6WpQ5tPmNdQ">
+          <body>Returns a copy of the object implementing numeric</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_UT_zURBMEeG6WpQ5tPmNdQ" type="_UI0eEBBMEeG6WpQ5tPmNdQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_UT2CURBMEeG6WpQ5tPmNdQ" name="add" method="_UUlpMxBMEeG6WpQ5tPmNdQ">
+        <ownedComment xmi:id="_UUvaMxBMEeG6WpQ5tPmNdQ">
+          <body>Adds two numeric objects and returns a new object holding the sum&#xD;
+     * &#xD;
+     * @param  term   Numeric object add with&#xD;
+     * @return        sum</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_UT2CUhBMEeG6WpQ5tPmNdQ" name="term" type="_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        <ownedParameter xmi:id="_UT2CUxBMEeG6WpQ5tPmNdQ" type="_UI0eEBBMEeG6WpQ5tPmNdQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_UT2CVBBMEeG6WpQ5tPmNdQ" name="subtract" method="_UUlpNhBMEeG6WpQ5tPmNdQ">
+        <ownedComment xmi:id="_UUvaNBBMEeG6WpQ5tPmNdQ">
+          <body>Subtracts two numeric objects and returns a new object holding the difference&#xD;
+     * &#xD;
+     * @param  term   term to subtract from this Numeric object&#xD;
+     * @return difference</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_UT2CVRBMEeG6WpQ5tPmNdQ" name="term" type="_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        <ownedParameter xmi:id="_UT2CVhBMEeG6WpQ5tPmNdQ" type="_UI0eEBBMEeG6WpQ5tPmNdQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_UT2CVxBMEeG6WpQ5tPmNdQ" name="multiply" method="_UUlpORBMEeG6WpQ5tPmNdQ">
+        <ownedComment xmi:id="_UUvaNRBMEeG6WpQ5tPmNdQ">
+          <body>Multiplies two numeric objects and returns a new object holding the product&#xD;
+     * &#xD;
+     * @param  multiplier Numeric object to multiply with&#xD;
+     * return product</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_UT2CWBBMEeG6WpQ5tPmNdQ" name="multiplier" type="_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        <ownedParameter xmi:id="_UT2CWRBMEeG6WpQ5tPmNdQ" type="_UI0eEBBMEeG6WpQ5tPmNdQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_UT2CWhBMEeG6WpQ5tPmNdQ" name="divide" method="_UUlpPBBMEeG6WpQ5tPmNdQ">
+        <ownedComment xmi:id="_UUvaNhBMEeG6WpQ5tPmNdQ">
+          <body>Divides two numeric objects and returns a new object holding the quotient&#xD;
+     * &#xD;
+     * @param  divisor Numeric object to divide to&#xD;
+     * @return quotient</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_UT2CWxBMEeG6WpQ5tPmNdQ" name="divisor" type="_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        <ownedParameter xmi:id="_UT2CXBBMEeG6WpQ5tPmNdQ" type="_UI0eEBBMEeG6WpQ5tPmNdQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_UUI9UhBMEeG6WpQ5tPmNdQ" name="BigIntNumber" method="_UUlpMBBMEeG6WpQ5tPmNdQ">
+        <eAnnotations xmi:id="_UUI9VBBMEeG6WpQ5tPmNdQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_UUI9VRBMEeG6WpQ5tPmNdQ" key="create"/>
+        </eAnnotations>
+        <ownedComment xmi:id="_UUvaMhBMEeG6WpQ5tPmNdQ">
+          <body>Constructor for objects of class BigIntNumber</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_UUI9UxBMEeG6WpQ5tPmNdQ" name="b" type="_UTsRUBBMEeG6WpQ5tPmNdQ"/>
+        <ownedParameter xmi:id="_UUI9VhBMEeG6WpQ5tPmNdQ" type="_UIE3MBBMEeG6WpQ5tPmNdQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_UUI9WhBMEeG6WpQ5tPmNdQ" name="compareTo" method="_UUlpPxBMEeG6WpQ5tPmNdQ">
+        <ownedComment xmi:id="_UUvaNxBMEeG6WpQ5tPmNdQ">
+          <body>Returns an object representing the zero value for the type</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_UUI9WxBMEeG6WpQ5tPmNdQ" name="val" type="_UUI9WBBMEeG6WpQ5tPmNdQ"/>
+        <ownedParameter xmi:id="_UUI9XBBMEeG6WpQ5tPmNdQ" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_UIXyIBBMEeG6WpQ5tPmNdQ" name="Fraction" clientDependency="_UT_zUhBMEeG6WpQ5tPmNdQ _UUSuQRBMEeG6WpQ5tPmNdQ">
+      <ownedAttribute xmi:id="_UUSuSxBMEeG6WpQ5tPmNdQ" name="numerator" isReadOnly="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_UUSuTBBMEeG6WpQ5tPmNdQ" name="denominator" isReadOnly="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_UUlpSBBMEeG6WpQ5tPmNdQ" name="Fraction" specification="_UIXyIRBMEeG6WpQ5tPmNdQ">
+        <ownedParameter xmi:id="_UUlpSRBMEeG6WpQ5tPmNdQ" type="_UIXyIBBMEeG6WpQ5tPmNdQ" direction="return"/>
+        <language>java</language>
+        <body>denominator = numerator = 1;&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_UUlpShBMEeG6WpQ5tPmNdQ" name="Fraction" specification="_UIXyJRBMEeG6WpQ5tPmNdQ">
+        <ownedParameter xmi:id="_UUlpSxBMEeG6WpQ5tPmNdQ" name="n">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_UUlpTBBMEeG6WpQ5tPmNdQ" name="d">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_UUlpTRBMEeG6WpQ5tPmNdQ" type="_UIXyIBBMEeG6WpQ5tPmNdQ" direction="return"/>
+        <language>java</language>
+        <body>numerator = n;&#xD;
+    if ( d > 0 )&#xD;
+    {&#xD;
+        denominator = d;&#xD;
+     }&#xD;
+     else&#xD;
+     {&#xD;
+         System.out.println(&quot;Illegal denominator (&lt;=0): &quot; + d);&#xD;
+         denominator = 1;&#xD;
+     }&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_UUlpThBMEeG6WpQ5tPmNdQ" name="Fraction" specification="_UT_zUxBMEeG6WpQ5tPmNdQ">
+        <ownedParameter xmi:id="_UUlpTxBMEeG6WpQ5tPmNdQ" name="f" type="_UIXyIBBMEeG6WpQ5tPmNdQ"/>
+        <ownedParameter xmi:id="_UUlpUBBMEeG6WpQ5tPmNdQ" type="_UIXyIBBMEeG6WpQ5tPmNdQ" direction="return"/>
+        <language>java</language>
+        <body>numerator = f.numerator;&#xD;
+     denominator = f.denominator;&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_UUlpURBMEeG6WpQ5tPmNdQ" name="add" specification="_UT_zWBBMEeG6WpQ5tPmNdQ">
+        <ownedParameter xmi:id="_UUlpUhBMEeG6WpQ5tPmNdQ" name="f" type="_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        <ownedParameter xmi:id="_UUlpUxBMEeG6WpQ5tPmNdQ" type="_UI0eEBBMEeG6WpQ5tPmNdQ" direction="return"/>
+        <language>java</language>
+        <body>Fraction result = new Fraction(this);&#xD;
+     int lcm = getLCM(denominator, ((Fraction)f).denominator);&#xD;
+     result.numerator *= lcm / denominator;&#xD;
+     int fNumerator = ((Fraction)f).numerator * lcm / ((Fraction)f).denominator;&#xD;
+     result.numerator += fNumerator;&#xD;
+     result.denominator = lcm;&#xD;
+     result.simplify();&#xD;
+     return result;&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_UUlpVBBMEeG6WpQ5tPmNdQ" name="subtract" specification="_UT_zWxBMEeG6WpQ5tPmNdQ">
+        <ownedParameter xmi:id="_UUlpVRBMEeG6WpQ5tPmNdQ" name="f" type="_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        <ownedParameter xmi:id="_UUlpVhBMEeG6WpQ5tPmNdQ" type="_UI0eEBBMEeG6WpQ5tPmNdQ" direction="return"/>
+        <language>java</language>
+        <body>Fraction result = new Fraction(this);&#xD;
+     int lcm = getLCM(denominator, ((Fraction)f).denominator);&#xD;
+     result.numerator *= lcm / denominator;&#xD;
+     int fNumerator = ((Fraction)f).numerator * lcm / ((Fraction)f).denominator;&#xD;
+     result.numerator -= fNumerator;&#xD;
+     result.denominator = lcm;&#xD;
+     result.simplify();&#xD;
+     return result;&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_UUlpVxBMEeG6WpQ5tPmNdQ" name="multiply" specification="_UT_zXhBMEeG6WpQ5tPmNdQ">
+        <ownedParameter xmi:id="_UUlpWBBMEeG6WpQ5tPmNdQ" name="f" type="_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        <ownedParameter xmi:id="_UUlpWRBMEeG6WpQ5tPmNdQ" type="_UI0eEBBMEeG6WpQ5tPmNdQ" direction="return"/>
+        <language>java</language>
+        <body>Fraction result = new Fraction(this);&#xD;
+     result.denominator *= ((Fraction)f).denominator;&#xD;
+     result.numerator *= ((Fraction)f).numerator;&#xD;
+     result.simplify();&#xD;
+     return result;&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_UUlpWhBMEeG6WpQ5tPmNdQ" name="divide" specification="_UT_zYRBMEeG6WpQ5tPmNdQ">
+        <ownedParameter xmi:id="_UUlpWxBMEeG6WpQ5tPmNdQ" name="f" type="_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        <ownedParameter xmi:id="_UUlpXBBMEeG6WpQ5tPmNdQ" type="_UI0eEBBMEeG6WpQ5tPmNdQ" direction="return"/>
+        <language>java</language>
+        <body>// find the sign of the result&#xD;
+     int sign = &#xD;
+     (Integer.signum(denominator) == Integer.signum(((Fraction)f).denominator))? 1: -1;&#xD;
+     Fraction result = new Fraction(this);&#xD;
+     result.denominator = Math.abs(denominator * ((Fraction)f).numerator);&#xD;
+     result.numerator *= Math.abs(((Fraction)f).denominator) * sign;&#xD;
+     result.simplify();&#xD;
+     return result;&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_UUlpXRBMEeG6WpQ5tPmNdQ" name="simplify" specification="_UIXyKxBMEeG6WpQ5tPmNdQ">
+        <language>java</language>
+        <body>int gcd = getGCD( numerator, denominator);&#xD;
+     &#xD;
+     if (gcd > 1)&#xD;
+     {&#xD;
+         numerator /= gcd;&#xD;
+         denominator /= gcd;&#xD;
+     }&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_UUlpXhBMEeG6WpQ5tPmNdQ" name="swap" specification="_UIXyLBBMEeG6WpQ5tPmNdQ">
+        <language>java</language>
+        <body>int t = numerator;&#xD;
+     denominator = numerator;&#xD;
+     numerator = t;&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_UUlpXxBMEeG6WpQ5tPmNdQ" name="toDouble" specification="_UIXyLRBMEeG6WpQ5tPmNdQ">
+        <ownedParameter xmi:id="_UUlpYBBMEeG6WpQ5tPmNdQ" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return (double)numerator / (double)denominator;&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_UUlpYRBMEeG6WpQ5tPmNdQ" name="equals" specification="_UT_zZBBMEeG6WpQ5tPmNdQ">
+        <ownedParameter xmi:id="_UUlpYhBMEeG6WpQ5tPmNdQ" name="f" type="_UIXyIBBMEeG6WpQ5tPmNdQ"/>
+        <ownedParameter xmi:id="_UUlpYxBMEeG6WpQ5tPmNdQ" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return compareTo(f) == 0;&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_UUlpZBBMEeG6WpQ5tPmNdQ" name="toString" specification="_UIXyLxBMEeG6WpQ5tPmNdQ">
+        <ownedParameter xmi:id="_UUlpZRBMEeG6WpQ5tPmNdQ" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return numerator + &quot;/&quot; + denominator;&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_UUlpZhBMEeG6WpQ5tPmNdQ" name="compareTo" specification="_UUSuQhBMEeG6WpQ5tPmNdQ">
+        <ownedParameter xmi:id="_UUlpZxBMEeG6WpQ5tPmNdQ" name="o" type="_UUI9WBBMEeG6WpQ5tPmNdQ"/>
+        <ownedParameter xmi:id="_UUlpaBBMEeG6WpQ5tPmNdQ" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>Fraction f = (Fraction) o;&#xD;
+     &#xD;
+     int lcm = getLCM(f.denominator, denominator);&#xD;
+     int a = numerator * (lcm / denominator);&#xD;
+     int b = f.numerator * (lcm / f.denominator);&#xD;
+     &#xD;
+     if ( a > b ) return 1;&#xD;
+     if (a == b) return 0;&#xD;
+     return -1;&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_UUlpaRBMEeG6WpQ5tPmNdQ" name="simplify" specification="_UT_zZxBMEeG6WpQ5tPmNdQ">
+        <ownedParameter xmi:id="_UUlpahBMEeG6WpQ5tPmNdQ" name="f" type="_UIXyIBBMEeG6WpQ5tPmNdQ"/>
+        <ownedParameter xmi:id="_UUlpaxBMEeG6WpQ5tPmNdQ" type="_UIXyIBBMEeG6WpQ5tPmNdQ" direction="return"/>
+        <language>java</language>
+        <body>Fraction nf = new Fraction();&#xD;
+     int gcd = getGCD( f.numerator, f.denominator);&#xD;
+     if (gcd > 1)&#xD;
+     {&#xD;
+         nf.numerator = f.numerator / gcd;&#xD;
+         nf.denominator = f.denominator / gcd;&#xD;
+     }&#xD;
+     return nf;&#xD;
+  </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_UUlpbBBMEeG6WpQ5tPmNdQ" name="copy" specification="_UIXyMRBMEeG6WpQ5tPmNdQ">
+        <ownedParameter xmi:id="_UUlpbRBMEeG6WpQ5tPmNdQ" type="_UI0eEBBMEeG6WpQ5tPmNdQ" direction="return"/>
+        <language>java</language>
+        <body>return new Fraction(this);&#xD;
+  </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_UUlpbhBMEeG6WpQ5tPmNdQ" name="getZero" specification="_UIXyMhBMEeG6WpQ5tPmNdQ">
+        <ownedParameter xmi:id="_UUlpbxBMEeG6WpQ5tPmNdQ" type="_UIXyIBBMEeG6WpQ5tPmNdQ" direction="return"/>
+        <language>java</language>
+        <body>return new Fraction(0, 1);&#xD;
+     </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_UUlpcBBMEeG6WpQ5tPmNdQ" name="getGCD" specification="_UIXyMxBMEeG6WpQ5tPmNdQ">
+        <ownedParameter xmi:id="_UUlpcRBMEeG6WpQ5tPmNdQ" name="a">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_UUlpchBMEeG6WpQ5tPmNdQ" name="b">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_UUlpcxBMEeG6WpQ5tPmNdQ" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>int t;&#xD;
+    if (a &lt; 0) a = -1;&#xD;
+    if (b &lt; 0) b = -b;&#xD;
+    while ( b != 0 )&#xD;
+    {&#xD;
+        t = b;&#xD;
+        b = a % b;&#xD;
+        a = t;&#xD;
+     }&#xD;
+    return a;&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_UUlpdBBMEeG6WpQ5tPmNdQ" name="getLCM" specification="_UIhjIRBMEeG6WpQ5tPmNdQ">
+        <ownedParameter xmi:id="_UUlpdRBMEeG6WpQ5tPmNdQ" name="a">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_UUlpdhBMEeG6WpQ5tPmNdQ" name="b">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_UUlpdxBMEeG6WpQ5tPmNdQ" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>if (a &lt; 0) a = -1;&#xD;
+    if (b &lt; 0) b = -b;&#xD;
+    return a * b / getGCD(a, b); &#xD;
+ </body>
+      </ownedBehavior>
+      <interfaceRealization xmi:id="_UUSuQRBMEeG6WpQ5tPmNdQ" supplier="_UUI9XRBMEeG6WpQ5tPmNdQ" client="_UIXyIBBMEeG6WpQ5tPmNdQ" contract="_UUI9XRBMEeG6WpQ5tPmNdQ"/>
+      <interfaceRealization xmi:id="_UT_zUhBMEeG6WpQ5tPmNdQ" supplier="_UI0eEBBMEeG6WpQ5tPmNdQ" client="_UIXyIBBMEeG6WpQ5tPmNdQ" contract="_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+      <ownedOperation xmi:id="_UIXyIRBMEeG6WpQ5tPmNdQ" name="Fraction" method="_UUlpSBBMEeG6WpQ5tPmNdQ">
+        <eAnnotations xmi:id="_UIXyIhBMEeG6WpQ5tPmNdQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_UIXyIxBMEeG6WpQ5tPmNdQ" key="create"/>
+        </eAnnotations>
+        <ownedComment xmi:id="_UUvaOhBMEeG6WpQ5tPmNdQ">
+          <body>Constructor for Fraction&#xD;
+     * creates a unitary fraction</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_UIXyJBBMEeG6WpQ5tPmNdQ" type="_UIXyIBBMEeG6WpQ5tPmNdQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_UIXyJRBMEeG6WpQ5tPmNdQ" name="Fraction" method="_UUlpShBMEeG6WpQ5tPmNdQ">
+        <eAnnotations xmi:id="_UIXyKBBMEeG6WpQ5tPmNdQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_UIXyKRBMEeG6WpQ5tPmNdQ" key="create"/>
+        </eAnnotations>
+        <ownedComment xmi:id="_UUvaOxBMEeG6WpQ5tPmNdQ">
+          <body>Constructor for Fractionm&#xD;
+     * @param n - numerator, integer&#xD;
+     * @param m - denominator, integer&#xD;
+     * By convention, the sign is kept with the numerator; &#xD;
+     * thus, negative deniminators are not legal</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_UIXyJhBMEeG6WpQ5tPmNdQ" name="n">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_UIXyJxBMEeG6WpQ5tPmNdQ" name="d">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_UIXyKhBMEeG6WpQ5tPmNdQ" type="_UIXyIBBMEeG6WpQ5tPmNdQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_UIXyKxBMEeG6WpQ5tPmNdQ" name="simplify" method="_UUlpXRBMEeG6WpQ5tPmNdQ">
+        <ownedComment xmi:id="_UUvaQRBMEeG6WpQ5tPmNdQ">
+          <body>Simplifies this fraction</body>
+        </ownedComment>
+      </ownedOperation>
+      <ownedOperation xmi:id="_UIXyLBBMEeG6WpQ5tPmNdQ" name="swap" method="_UUlpXhBMEeG6WpQ5tPmNdQ">
+        <ownedComment xmi:id="_UUvaQhBMEeG6WpQ5tPmNdQ">
+          <body>Swaps numerator with denominator; thus inverts fraction</body>
+        </ownedComment>
+      </ownedOperation>
+      <ownedOperation xmi:id="_UIXyLRBMEeG6WpQ5tPmNdQ" name="toDouble" method="_UUlpXxBMEeG6WpQ5tPmNdQ">
+        <ownedComment xmi:id="_UUvaQxBMEeG6WpQ5tPmNdQ">
+          <body>Returns the real equivalent of this fraction&#xD;
+     * @return a double approx. equal to this fraction</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_UIXyLhBMEeG6WpQ5tPmNdQ" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_UIXyLxBMEeG6WpQ5tPmNdQ" name="toString" method="_UUlpZBBMEeG6WpQ5tPmNdQ">
+        <ownedComment xmi:id="_UUvaRRBMEeG6WpQ5tPmNdQ">
+          <body>@retruns a String representation of this fraction</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_UIXyMBBMEeG6WpQ5tPmNdQ" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_UIXyMRBMEeG6WpQ5tPmNdQ" name="copy" method="_UUlpbBBMEeG6WpQ5tPmNdQ">
+        <ownedParameter xmi:id="_UT_zahBMEeG6WpQ5tPmNdQ" type="_UI0eEBBMEeG6WpQ5tPmNdQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_UIXyMhBMEeG6WpQ5tPmNdQ" name="getZero" method="_UUlpbhBMEeG6WpQ5tPmNdQ">
+        <ownedParameter xmi:id="_UT_zaxBMEeG6WpQ5tPmNdQ" type="_UIXyIBBMEeG6WpQ5tPmNdQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_UIXyMxBMEeG6WpQ5tPmNdQ" name="getGCD" visibility="private" isStatic="true" method="_UUlpcBBMEeG6WpQ5tPmNdQ">
+        <ownedComment xmi:id="_UUvaSBBMEeG6WpQ5tPmNdQ">
+          <body>Greatest common divisor of two integers a and b</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_UIXyNBBMEeG6WpQ5tPmNdQ" name="a">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_UIXyNRBMEeG6WpQ5tPmNdQ" name="b">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_UIhjIBBMEeG6WpQ5tPmNdQ" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_UIhjIRBMEeG6WpQ5tPmNdQ" name="getLCM" visibility="private" isStatic="true" method="_UUlpdBBMEeG6WpQ5tPmNdQ">
+        <ownedComment xmi:id="_UUvaSRBMEeG6WpQ5tPmNdQ">
+          <body>Least common multiple of two integers a and b</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_UIhjIhBMEeG6WpQ5tPmNdQ" name="a">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_UIhjIxBMEeG6WpQ5tPmNdQ" name="b">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_UIhjJBBMEeG6WpQ5tPmNdQ" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_UT_zUxBMEeG6WpQ5tPmNdQ" name="Fraction" method="_UUlpThBMEeG6WpQ5tPmNdQ">
+        <eAnnotations xmi:id="_UT_zVRBMEeG6WpQ5tPmNdQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_UT_zVhBMEeG6WpQ5tPmNdQ" key="create"/>
+        </eAnnotations>
+        <ownedComment xmi:id="_UUvaPBBMEeG6WpQ5tPmNdQ">
+          <body>Copy constructor for Fraction&#xD;
+     * Creates a duplicate of the fraction givenas an argument&#xD;
+     * @param f - Fraction to duplicate</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_UT_zVBBMEeG6WpQ5tPmNdQ" name="f" type="_UIXyIBBMEeG6WpQ5tPmNdQ"/>
+        <ownedParameter xmi:id="_UT_zVxBMEeG6WpQ5tPmNdQ" type="_UIXyIBBMEeG6WpQ5tPmNdQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_UT_zWBBMEeG6WpQ5tPmNdQ" name="add" method="_UUlpURBMEeG6WpQ5tPmNdQ">
+        <ownedComment xmi:id="_UUvaPRBMEeG6WpQ5tPmNdQ">
+          <body>Adds this fraction with the one given as an argument&#xD;
+     * and accumulates the result in this fraction&#xD;
+     * @param f - fraction to add with</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_UT_zWRBMEeG6WpQ5tPmNdQ" name="f" type="_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        <ownedParameter xmi:id="_UT_zWhBMEeG6WpQ5tPmNdQ" type="_UI0eEBBMEeG6WpQ5tPmNdQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_UT_zWxBMEeG6WpQ5tPmNdQ" name="subtract" method="_UUlpVBBMEeG6WpQ5tPmNdQ">
+        <ownedComment xmi:id="_UUvaPhBMEeG6WpQ5tPmNdQ">
+          <body>Subtracts from this fraction the one given as an argument&#xD;
+     * and accumulates the result in this fraction&#xD;
+     * @param f - fraction to subtract from this one</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_UT_zXBBMEeG6WpQ5tPmNdQ" name="f" type="_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        <ownedParameter xmi:id="_UT_zXRBMEeG6WpQ5tPmNdQ" type="_UI0eEBBMEeG6WpQ5tPmNdQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_UT_zXhBMEeG6WpQ5tPmNdQ" name="multiply" method="_UUlpVxBMEeG6WpQ5tPmNdQ">
+        <ownedComment xmi:id="_UUvaPxBMEeG6WpQ5tPmNdQ">
+          <body>Multiplies this fraction by the one given as an argument&#xD;
+     * and accumulates the result in this fraction&#xD;
+     * @param f - fraction to multiply with</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_UT_zXxBMEeG6WpQ5tPmNdQ" name="f" type="_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        <ownedParameter xmi:id="_UT_zYBBMEeG6WpQ5tPmNdQ" type="_UI0eEBBMEeG6WpQ5tPmNdQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_UT_zYRBMEeG6WpQ5tPmNdQ" name="divide" method="_UUlpWhBMEeG6WpQ5tPmNdQ">
+        <ownedComment xmi:id="_UUvaQBBMEeG6WpQ5tPmNdQ">
+          <body>Divides this fraction through the one given as an argument&#xD;
+     * and accumulates the result in this fraction&#xD;
+     * @param f - fraction to divide to</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_UT_zYhBMEeG6WpQ5tPmNdQ" name="f" type="_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        <ownedParameter xmi:id="_UT_zYxBMEeG6WpQ5tPmNdQ" type="_UI0eEBBMEeG6WpQ5tPmNdQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_UT_zZBBMEeG6WpQ5tPmNdQ" name="equals" method="_UUlpYRBMEeG6WpQ5tPmNdQ">
+        <ownedComment xmi:id="_UUvaRBBMEeG6WpQ5tPmNdQ">
+          <body>Checks wether this fraction is equal to another&#xD;
+     * @param fraction to check if equal with&#xD;
+     * @return true if equal; false otherwise</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_UT_zZRBMEeG6WpQ5tPmNdQ" name="f" type="_UIXyIBBMEeG6WpQ5tPmNdQ"/>
+        <ownedParameter xmi:id="_UT_zZhBMEeG6WpQ5tPmNdQ" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_UT_zZxBMEeG6WpQ5tPmNdQ" name="simplify" isStatic="true" method="_UUlpaRBMEeG6WpQ5tPmNdQ">
+        <ownedComment xmi:id="_UUvaRxBMEeG6WpQ5tPmNdQ">
+          <body>Simplifies the fraction given as an argument and returns it&#xD;
+     * Does not change original fraction&#xD;
+     * @param f - fraction to simplify&#xD;
+     * @return reference to simplified fraction</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_UT_zaBBMEeG6WpQ5tPmNdQ" name="f" type="_UIXyIBBMEeG6WpQ5tPmNdQ"/>
+        <ownedParameter xmi:id="_UT_zaRBMEeG6WpQ5tPmNdQ" type="_UIXyIBBMEeG6WpQ5tPmNdQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_UUSuQhBMEeG6WpQ5tPmNdQ" name="compareTo" method="_UUlpZhBMEeG6WpQ5tPmNdQ">
+        <ownedComment xmi:id="_UUvaRhBMEeG6WpQ5tPmNdQ">
+          <body>Compares this fraction to the one given as an argument&#xD;
+     * @param o - fraction to compare to&#xD;
+     * @return 1 if this is greater; 0 if equal; -1 if less</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_UUSuQxBMEeG6WpQ5tPmNdQ" name="o" type="_UUI9WBBMEeG6WpQ5tPmNdQ"/>
+        <ownedParameter xmi:id="_UUSuRBBMEeG6WpQ5tPmNdQ" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_UIhjJRBMEeG6WpQ5tPmNdQ" name="IntNumber" clientDependency="_UT_zbBBMEeG6WpQ5tPmNdQ">
+      <ownedComment xmi:id="_UUvaShBMEeG6WpQ5tPmNdQ">
+        <body>IntNumber is a wrapper for class Integer to implement interface Numeric&#xD;
+&#xD;
+@author (your name) &#xD;
+@version (a version number or a date)</body>
+      </ownedComment>
+      <ownedAttribute xmi:id="_UUSuTRBMEeG6WpQ5tPmNdQ" name="value" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_UUlpeBBMEeG6WpQ5tPmNdQ" name="IntNumber" specification="_UIqtEBBMEeG6WpQ5tPmNdQ">
+        <ownedParameter xmi:id="_UUlpeRBMEeG6WpQ5tPmNdQ" name="intVal">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_UUlpehBMEeG6WpQ5tPmNdQ" type="_UIhjJRBMEeG6WpQ5tPmNdQ" direction="return"/>
+        <language>java</language>
+        <body>value = intVal;&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_UUlpexBMEeG6WpQ5tPmNdQ" name="add" specification="_UT_zbRBMEeG6WpQ5tPmNdQ">
+        <ownedParameter xmi:id="_UUlpfBBMEeG6WpQ5tPmNdQ" name="term" type="_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        <ownedParameter xmi:id="_UUlpfRBMEeG6WpQ5tPmNdQ" type="_UI0eEBBMEeG6WpQ5tPmNdQ" direction="return"/>
+        <language>java</language>
+        <body>int val = value + ((IntNumber)term).value;&#xD;
+     return new IntNumber(val);&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_UUlpfhBMEeG6WpQ5tPmNdQ" name="subtract" specification="_UT_zcBBMEeG6WpQ5tPmNdQ">
+        <ownedParameter xmi:id="_UUlpfxBMEeG6WpQ5tPmNdQ" name="term" type="_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        <ownedParameter xmi:id="_UUlpgBBMEeG6WpQ5tPmNdQ" type="_UI0eEBBMEeG6WpQ5tPmNdQ" direction="return"/>
+        <language>java</language>
+        <body>int val = value - ((IntNumber)term).value;&#xD;
+     return new IntNumber(val);&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_UUlpgRBMEeG6WpQ5tPmNdQ" name="multiply" specification="_UT_zcxBMEeG6WpQ5tPmNdQ">
+        <ownedParameter xmi:id="_UUlpghBMEeG6WpQ5tPmNdQ" name="multiplier" type="_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        <ownedParameter xmi:id="_UUlpgxBMEeG6WpQ5tPmNdQ" type="_UI0eEBBMEeG6WpQ5tPmNdQ" direction="return"/>
+        <language>java</language>
+        <body>int val = value * ((IntNumber)multiplier).value;&#xD;
+     return new IntNumber(val);&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_UUlphBBMEeG6WpQ5tPmNdQ" name="divide" specification="_UUI9QBBMEeG6WpQ5tPmNdQ">
+        <ownedParameter xmi:id="_UUlphRBMEeG6WpQ5tPmNdQ" name="divisor" type="_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        <ownedParameter xmi:id="_UUlphhBMEeG6WpQ5tPmNdQ" type="_UI0eEBBMEeG6WpQ5tPmNdQ" direction="return"/>
+        <language>java</language>
+        <body>int val = value / ((IntNumber)divisor).value;&#xD;
+     return new IntNumber(val);&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_UUlphxBMEeG6WpQ5tPmNdQ" name="toString" specification="_UIqtFRBMEeG6WpQ5tPmNdQ">
+        <ownedParameter xmi:id="_UUlpiBBMEeG6WpQ5tPmNdQ" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return Integer.toString(value);&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_UUlpiRBMEeG6WpQ5tPmNdQ" name="compareTo" specification="_UUSuRRBMEeG6WpQ5tPmNdQ">
+        <ownedParameter xmi:id="_UUlpihBMEeG6WpQ5tPmNdQ" name="val" type="_UUI9WBBMEeG6WpQ5tPmNdQ"/>
+        <ownedParameter xmi:id="_UUlpixBMEeG6WpQ5tPmNdQ" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return value - ((IntNumber) val).value;&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_UUlpjBBMEeG6WpQ5tPmNdQ" name="getZero" specification="_UIqtFxBMEeG6WpQ5tPmNdQ">
+        <ownedParameter xmi:id="_UUlpjRBMEeG6WpQ5tPmNdQ" type="_UI0eEBBMEeG6WpQ5tPmNdQ" direction="return"/>
+        <language>java</language>
+        <body>return new IntNumber(0);&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_UUlpjhBMEeG6WpQ5tPmNdQ" name="copy" specification="_UIqtGBBMEeG6WpQ5tPmNdQ">
+        <ownedParameter xmi:id="_UUlpjxBMEeG6WpQ5tPmNdQ" type="_UI0eEBBMEeG6WpQ5tPmNdQ" direction="return"/>
+        <language>java</language>
+        <body>return new IntNumber(value);&#xD;
+ </body>
+      </ownedBehavior>
+      <interfaceRealization xmi:id="_UT_zbBBMEeG6WpQ5tPmNdQ" supplier="_UI0eEBBMEeG6WpQ5tPmNdQ" client="_UIhjJRBMEeG6WpQ5tPmNdQ" contract="_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+      <ownedOperation xmi:id="_UIqtEBBMEeG6WpQ5tPmNdQ" name="IntNumber" method="_UUlpeBBMEeG6WpQ5tPmNdQ">
+        <eAnnotations xmi:id="_UIqtEhBMEeG6WpQ5tPmNdQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_UIqtExBMEeG6WpQ5tPmNdQ" key="create"/>
+        </eAnnotations>
+        <ownedComment xmi:id="_UUvaSxBMEeG6WpQ5tPmNdQ">
+          <body>Constructor for objects of class IntNumber</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_UIqtERBMEeG6WpQ5tPmNdQ" name="intVal">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_UIqtFBBMEeG6WpQ5tPmNdQ" type="_UIhjJRBMEeG6WpQ5tPmNdQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_UIqtFRBMEeG6WpQ5tPmNdQ" name="toString" method="_UUlphxBMEeG6WpQ5tPmNdQ">
+        <ownedParameter xmi:id="_UIqtFhBMEeG6WpQ5tPmNdQ" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_UIqtFxBMEeG6WpQ5tPmNdQ" name="getZero" method="_UUlpjBBMEeG6WpQ5tPmNdQ">
+        <ownedComment xmi:id="_UUvaURBMEeG6WpQ5tPmNdQ">
+          <body>Returns an object reopresenting the zero value for the type</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_UUI9QxBMEeG6WpQ5tPmNdQ" type="_UI0eEBBMEeG6WpQ5tPmNdQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_UIqtGBBMEeG6WpQ5tPmNdQ" name="copy" method="_UUlpjhBMEeG6WpQ5tPmNdQ">
+        <ownedComment xmi:id="_UUvaUhBMEeG6WpQ5tPmNdQ">
+          <body>Returns a copy of the object implementing numeric</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_UUI9RBBMEeG6WpQ5tPmNdQ" type="_UI0eEBBMEeG6WpQ5tPmNdQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_UT_zbRBMEeG6WpQ5tPmNdQ" name="add" method="_UUlpexBMEeG6WpQ5tPmNdQ">
+        <ownedComment xmi:id="_UUvaTBBMEeG6WpQ5tPmNdQ">
+          <body>Adds two numeric objects and returns a new object holding the sum&#xD;
+     * &#xD;
+     * @param  term   Numeric object add with&#xD;
+     * @return        result of this + term</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_UT_zbhBMEeG6WpQ5tPmNdQ" name="term" type="_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        <ownedParameter xmi:id="_UT_zbxBMEeG6WpQ5tPmNdQ" type="_UI0eEBBMEeG6WpQ5tPmNdQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_UT_zcBBMEeG6WpQ5tPmNdQ" name="subtract" method="_UUlpfhBMEeG6WpQ5tPmNdQ">
+        <ownedComment xmi:id="_UUvaTRBMEeG6WpQ5tPmNdQ">
+          <body>Subtracts two numeric objects and returns a new object holding the difference&#xD;
+     * &#xD;
+     * @param  term   term to subtract from this Numeric object</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_UT_zcRBMEeG6WpQ5tPmNdQ" name="term" type="_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        <ownedParameter xmi:id="_UT_zchBMEeG6WpQ5tPmNdQ" type="_UI0eEBBMEeG6WpQ5tPmNdQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_UT_zcxBMEeG6WpQ5tPmNdQ" name="multiply" method="_UUlpgRBMEeG6WpQ5tPmNdQ">
+        <ownedComment xmi:id="_UUvaThBMEeG6WpQ5tPmNdQ">
+          <body>Multiplies two numeric objects and returns a new object holding the product&#xD;
+     * &#xD;
+     * @param  multiplier Numeric object to multiply with</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_UT_zdBBMEeG6WpQ5tPmNdQ" name="multiplier" type="_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        <ownedParameter xmi:id="_UT_zdRBMEeG6WpQ5tPmNdQ" type="_UI0eEBBMEeG6WpQ5tPmNdQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_UUI9QBBMEeG6WpQ5tPmNdQ" name="divide" method="_UUlphBBMEeG6WpQ5tPmNdQ">
+        <ownedComment xmi:id="_UUvaTxBMEeG6WpQ5tPmNdQ">
+          <body>Divides two numeric objects and returns a new object holding the quotient&#xD;
+     * &#xD;
+     * @param  divisor Numeric object to divide to&#xD;
+     * @return        result of this / divisor</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_UUI9QRBMEeG6WpQ5tPmNdQ" name="divisor" type="_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        <ownedParameter xmi:id="_UUI9QhBMEeG6WpQ5tPmNdQ" type="_UI0eEBBMEeG6WpQ5tPmNdQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_UUSuRRBMEeG6WpQ5tPmNdQ" name="compareTo" method="_UUlpiRBMEeG6WpQ5tPmNdQ">
+        <ownedComment xmi:id="_UUvaUBBMEeG6WpQ5tPmNdQ">
+          <body>Returns an object representing the zero value for the type</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_UUSuRhBMEeG6WpQ5tPmNdQ" name="val" type="_UUI9WBBMEeG6WpQ5tPmNdQ"/>
+        <ownedParameter xmi:id="_UUSuRxBMEeG6WpQ5tPmNdQ" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_UI0eEBBMEeG6WpQ5tPmNdQ" name="Numeric">
+      <ownedComment xmi:id="_UUvaUxBMEeG6WpQ5tPmNdQ">
+        <body>Write a description of interface Numeric here.&#xD;
+&#xD;
+@author (your name) &#xD;
+@version (a version number or a date)</body>
+      </ownedComment>
+      <generalization xmi:id="_UUSuSBBMEeG6WpQ5tPmNdQ" general="_UUI9XRBMEeG6WpQ5tPmNdQ"/>
+      <ownedAttribute xmi:id="_UI9oABBMEeG6WpQ5tPmNdQ" name="zero" type="_UI0eEBBMEeG6WpQ5tPmNdQ" isReadOnly="true" association="_UUvaWRBMEeG6WpQ5tPmNdQ"/>
+      <ownedOperation xmi:id="_UI9oARBMEeG6WpQ5tPmNdQ" name="copy">
+        <ownedComment xmi:id="_UUvaWBBMEeG6WpQ5tPmNdQ">
+          <body>Returns a copy of the object implementing numeric</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_UUI9URBMEeG6WpQ5tPmNdQ" type="_UI0eEBBMEeG6WpQ5tPmNdQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_UUI9RRBMEeG6WpQ5tPmNdQ" name="add">
+        <ownedComment xmi:id="_UUvaVBBMEeG6WpQ5tPmNdQ">
+          <body>Adds two numeric objects and returns a new object holding the sum&#xD;
+     * &#xD;
+     * @param  term   Numeric object add with&#xD;
+     * @return sum</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_UUI9RhBMEeG6WpQ5tPmNdQ" name="term" type="_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        <ownedParameter xmi:id="_UUI9RxBMEeG6WpQ5tPmNdQ" type="_UI0eEBBMEeG6WpQ5tPmNdQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_UUI9SBBMEeG6WpQ5tPmNdQ" name="subtract">
+        <ownedComment xmi:id="_UUvaVRBMEeG6WpQ5tPmNdQ">
+          <body>Subtracts two numeric objects and returns a new object holding the difference&#xD;
+     * &#xD;
+     * @param  term   term to subtract from this Numeric object&#xD;
+     * @return difference</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_UUI9SRBMEeG6WpQ5tPmNdQ" name="term" type="_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        <ownedParameter xmi:id="_UUI9ShBMEeG6WpQ5tPmNdQ" type="_UI0eEBBMEeG6WpQ5tPmNdQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_UUI9SxBMEeG6WpQ5tPmNdQ" name="multiply" visibility="package">
+        <ownedComment xmi:id="_UUvaVhBMEeG6WpQ5tPmNdQ">
+          <body>Multiplies two numeric objects and returns a new object holding the product&#xD;
+     * &#xD;
+     * @param  multiplier Numeric object to multiply with&#xD;
+     * @return product</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_UUI9TBBMEeG6WpQ5tPmNdQ" name="multiplier" type="_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        <ownedParameter xmi:id="_UUI9TRBMEeG6WpQ5tPmNdQ" type="_UI0eEBBMEeG6WpQ5tPmNdQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_UUI9ThBMEeG6WpQ5tPmNdQ" name="divide">
+        <ownedComment xmi:id="_UUvaVxBMEeG6WpQ5tPmNdQ">
+          <body>Divides two numeric objects and returns a new object holding the quotient&#xD;
+     * &#xD;
+     * @param  divisor Numeric object to divide to&#xD;
+     * @return quotient</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_UUI9TxBMEeG6WpQ5tPmNdQ" name="divisor" type="_UI0eEBBMEeG6WpQ5tPmNdQ"/>
+        <ownedParameter xmi:id="_UUI9UBBMEeG6WpQ5tPmNdQ" type="_UI0eEBBMEeG6WpQ5tPmNdQ" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_UUvaWRBMEeG6WpQ5tPmNdQ" name="" memberEnd="_UUvaWhBMEeG6WpQ5tPmNdQ _UI9oABBMEeG6WpQ5tPmNdQ">
+      <ownedEnd xmi:id="_UUvaWhBMEeG6WpQ5tPmNdQ" name="" type="_UI0eEBBMEeG6WpQ5tPmNdQ" association="_UUvaWRBMEeG6WpQ5tPmNdQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_UUvaXBBMEeG6WpQ5tPmNdQ" name="" memberEnd="_UUvaXRBMEeG6WpQ5tPmNdQ _UUSuSRBMEeG6WpQ5tPmNdQ">
+      <ownedEnd xmi:id="_UUvaXRBMEeG6WpQ5tPmNdQ" name="" type="_UIE3MBBMEeG6WpQ5tPmNdQ" association="_UUvaXBBMEeG6WpQ5tPmNdQ"/>
+    </packagedElement>
+    <profileApplication xmi:id="_T02ZMBBMEeG6WpQ5tPmNdQ">
+      <eAnnotations xmi:id="_T02ZMRBMEeG6WpQ5tPmNdQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_T02ZMhBMEeG6WpQ5tPmNdQ" base_Package="_Tz9BUBBMEeG6WpQ5tPmNdQ">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:Reference xmi:id="_UTsRURBMEeG6WpQ5tPmNdQ" base_Element="_UTsRUBBMEeG6WpQ5tPmNdQ"/>
+  <UMLLabProfile:Reference xmi:id="_UUI9WRBMEeG6WpQ5tPmNdQ" base_Element="_UUI9WBBMEeG6WpQ5tPmNdQ"/>
+  <UMLLabProfile:Reference xmi:id="_UUSuQBBMEeG6WpQ5tPmNdQ" base_Element="_UUI9XRBMEeG6WpQ5tPmNdQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_UUSuShBMEeG6WpQ5tPmNdQ" base_Element="_UUSuSRBMEeG6WpQ5tPmNdQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_UUSuThBMEeG6WpQ5tPmNdQ" base_Element="_UUSuTRBMEeG6WpQ5tPmNdQ"/>
+  <UMLLabProfile:Reference xmi:id="_UUvaWxBMEeG6WpQ5tPmNdQ" base_Element="_UUvaWRBMEeG6WpQ5tPmNdQ"/>
+  <UMLLabProfile:Reference xmi:id="_UUvaXhBMEeG6WpQ5tPmNdQ" base_Element="_UUvaXBBMEeG6WpQ5tPmNdQ"/>
+</xmi:XMI>

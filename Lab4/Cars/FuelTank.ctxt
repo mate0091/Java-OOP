@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=FuelTank
+comment1.params=
+comment1.target=FuelTank()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ FuelTank\r\n
+comment2.params=cap\ level
+comment2.target=FuelTank(float,\ float)
+comment3.params=amount
+comment3.target=float\ fill(float)
+comment4.params=amount
+comment4.target=boolean\ releaseFuel(float)
+comment5.params=
+comment5.target=float\ getLevel()
+comment6.params=
+comment6.target=float\ getCapacity()
+numComments=7

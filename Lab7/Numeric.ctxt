@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=term
+comment0.target=Numeric\ add(Numeric)
+comment0.text=\r\n\ Adds\ two\ numeric\ objects\ and\ returns\ a\ new\ object\ holding\ the\ sum\r\n\ \r\n\ @param\ \ term\ \ \ Numeric\ object\ add\ with\r\n\ @return\ sum\r\n
+comment1.params=term
+comment1.target=Numeric\ subtract(Numeric)
+comment1.text=\r\n\ Subtracts\ two\ numeric\ objects\ and\ returns\ a\ new\ object\ holding\ the\ difference\r\n\ \r\n\ @param\ \ term\ \ \ term\ to\ subtract\ from\ this\ Numeric\ object\r\n\ @return\ difference\r\n
+comment2.params=multiplier
+comment2.target=Numeric\ multiply(Numeric)
+comment2.text=\r\n\ Multiplies\ two\ numeric\ objects\ and\ returns\ a\ new\ object\ holding\ the\ product\r\n\ \r\n\ @param\ \ multiplier\ Numeric\ object\ to\ multiply\ with\r\n\ @return\ product\r\n
+comment3.params=divisor
+comment3.target=Numeric\ divide(Numeric)
+comment3.text=\r\n\ Divides\ two\ numeric\ objects\ and\ returns\ a\ new\ object\ holding\ the\ quotient\r\n\ \r\n\ @param\ \ divisor\ Numeric\ object\ to\ divide\ to\r\n\ @return\ quotient\ \r\n
+comment4.params=
+comment4.target=Numeric\ getZero()
+comment4.text=\r\n\ Returns\ an\ object\ representing\ the\ zero\ value\ for\ the\ type\r\n
+comment5.params=
+comment5.target=Numeric\ copy()
+comment5.text=\r\n\ Returns\ a\ copy\ of\ the\ object\ implementing\ numeric\r\n
+numComments=6

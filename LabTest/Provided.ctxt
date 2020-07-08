@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Provided
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Useful\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=java.lang.String[]\ generatePersonInfo()
+comment1.text=\r\n\ Generate\ person\ info\r\n\ @return\ an\ array\ of\ String\ of\ size\ 3\ with\ SSN\ (13\ digit\ unique\ number),\ (dummy)\ name,\ \r\n\ and\ birth\ date\ (4-digit\ year,\ 2-digit\ month,\ 2\ digit\ day)\ in\ order\r\n
+comment2.params=wing\ floor
+comment2.target=java.lang.String[]\ generateClassRoomInfo(char,\ int)
+comment2.text=\r\n\ Generate\ info\ for\ a\ classroom\r\n\ @return\ an\ array\ of\ String\ of\ size\ 2\ with\ identification\ (at\ 0)\ and\ number\ of\ desks\ (at\ 1)\r\n
+comment3.params=birthDate
+comment3.target=java.lang.String\ generateSSN(java.lang.String)
+comment4.params=len
+comment4.target=java.lang.String\ generateText(int)
+comment5.params=wing\ floor
+comment5.target=java.lang.String\ genClassroomInfo(char,\ int)
+numComments=6

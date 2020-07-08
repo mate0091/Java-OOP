@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=
+comment0.target=LotteryDraw()
+comment0.text=\r\n\ Constructor\ for\ \ LotteryDraw\ objects\r\n\ Defaults\ to\ a\ 6\ out\ of\ 49\ lottery\r\n
+comment1.params=n\ m
+comment1.target=LotteryDraw(int,\ int)
+comment1.text=\r\n\ Constructor\ Constructor\ for\ \ LotteryDraw\ objects\r\n\ @param\ n\ how\ many\ numbers\ to\ draw\r\n\ @param\ m\ biggest\ drawable\ number\r\n
+comment2.params=
+comment2.target=void\ drawOneNumber()
+comment3.params=
+comment3.target=void\ draw()
+comment3.text=\r\n\ Executes\ a\ draw\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ Returns\ a\ String\ representation\ of\ this\ LotteryDraw\ object\r\n
+comment5.params=
+comment5.target=void\ list()
+comment5.text=\r\n\ Prints\ info\ on\ this\ lottery\r\n
+comment6.params=b
+comment6.target=void\ checkWins(LotteryTicket)
+comment6.text=\r\n\ Check\ to\ see\ which\ numbers\ on\ the\ given\ ticket\ match\ the\ draw\r\n\ Writes\ to\ System.out\ the\ matching\ ones\r\n\ @param\ b\ a\ LotteryTicket\ object\ to\ check\ against\ this\ draw\r\n
+numComments=7
